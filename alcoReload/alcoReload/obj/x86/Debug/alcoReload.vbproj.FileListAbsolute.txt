@@ -684,3 +684,11 @@ C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alco
 C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComparacionCotiza.resources
 C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDuracionDuplicacion.resources
 C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComplementos.resources
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\bin\Debug\alcoReload.exe.config
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\Interop.LCC11.dll
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.ResolveComReference.cache
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\alcoReload.exe
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\alcoReload.xml
+C:\Users\analista1\Documents\GitHub\https---github.com-AlcoSA-AlcoReload\alcoReload\alcoReload\obj\x86\Debug\alcoReload.pdb
