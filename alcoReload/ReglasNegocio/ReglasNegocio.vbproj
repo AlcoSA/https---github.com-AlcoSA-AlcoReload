@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{946B2222-3645-424D-93B0-26DDE8C69C00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ReglasNegocio</RootNamespace>
+    <AssemblyName>ReglasNegocio</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ReglasNegocio.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ReglasNegocio.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases Abstractas\ClsBaseParametros.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsAprobacionLocal.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsTiposFormato.vb" />
+    <Compile Include="Clases Comercial\Contratos\Formatos Minutas\ClsFormatoContrato.vb" />
+    <Compile Include="Clases Comercial\Contratos\Formatos Minutas\ClsFormatoOtrosi.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\clsAnticiposPorNota.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsAseguradoras.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsCiudadesCamaraComercio.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsClientesUnoee.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsContratos.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsMinutas.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsMovitoItemsContrato.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\clsMovitoPlanAnticipos.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsObjetosContratos.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsObrasUnoee.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsPendientesporContratar.vb" />
+    <Compile Include="Clases Comercial\Contratos\Planeacion\clsContratosPlaneacion.vb" />
+    <Compile Include="Clases Comercial\Contratos\Planeacion\clsCotizacionPlaneacion.vb" />
+    <Compile Include="Clases Comercial\Contratos\Planeacion\clsEstadosPlaneacion.vb" />
+    <Compile Include="Clases Comercial\Contratos\Planeacion\clsPlaneacion.vb" />
+    <Compile Include="Clases Comercial\Contratos\Polizas\clsMovitoPoliza.vb" />
+    <Compile Include="Clases Comercial\Contratos\Polizas\clsPolizas.vb" />
+    <Compile Include="Clases Comercial\Contratos\Polizas\clsPolizasContratos.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsRelacionObjetoContratos.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsRelacionParaContrato.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsTipoAnticipo.vb" />
+    <Compile Include="Clases Comercial\Contratos\clsTipoEscritura.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsAdjuntosContratos.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsCreacionFormatosAlco.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsCreacionVariablesEsquemas.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsDiasEntregaContrato.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsFormatoDocxContrato.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClsTablasdeVariables.vb" />
+    <Compile Include="Clases Comercial\Contratos\Creacion Contratos\ClstiposEscritura.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\ClsPlanAnticipos.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\ClsNotasCobro.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\ClsObjetosNota.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\ClsParaNota.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsDevolucion.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsMovitoCuentaCobro.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsMovitoDevolucion.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsMovitoPagoRetenido.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsPagoRetenidos.vb" />
+    <Compile Include="Clases Comercial\Otro Si\ClsOtroSi.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsDescuentosGeneralesPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsDescuentosMaterialPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsDibujosPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsMaterialesPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsObservacionesPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\ClsVariablesPlantillaCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsCostos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsDuracionDuplicacion.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsExtraCostosCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsGruposCondiciones.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsHistorialCorreosCotizacion.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsRegistroDuplicacion.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsCambioPrecio.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsCuentaCobro.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsMovitoOrdenTrabajo.vb" />
+    <Compile Include="Clases Comercial\Instalacion\ClsOrdenTrabajo.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsGeneralesReposicion.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsMovitoReposicion.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsReposiciones.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsFiltrosInformePersonalizado.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsGruposInformesPersonalizados.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsInformesDinamicos.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsInformesDinamicosPersonalizados.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsParametrosInformesDinamicos.vb" />
+    <Compile Include="Clases Generales\Informes Dinamicos\ClsValoresParametrosInforme.vb" />
+    <Compile Include="Clases Generales\Interbloqueo\ClsInterbloqueos.vb" />
+    <Compile Include="Clases Generales\Interbloqueo\ClsModulosAplicacion.vb" />
+    <Compile Include="Clases Generales\Planos\ClsConector.vb" />
+    <Compile Include="Clases Generales\Planos\ClsControlesEnlace.vb" />
+    <Compile Include="Clases Generales\Planos\ClsEncabeEnlaceConector.vb" />
+    <Compile Include="Clases Generales\Planos\ClsEnlaceConectorControl.vb" />
+    <Compile Include="Clases Generales\Planos\ClsMovitoConector.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsDepartamentosAlco.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsEjecucionSeguridad.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsGruposSeguridad.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsModulosPermisoExtra.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsPermisosAplicacion.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsPermisosExtra.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsPermisosxGrupo.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsPermisosxUsuario.vb" />
+    <Compile Include="Clases Generales\Seguridad\ClsUsuarios.vb" />
+    <Compile Include="Clases Ingenieria\ClsAprobacionPlantilla.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsCalculos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsComplementos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsCondiciones.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsHistModiCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsMovitoHijos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsMovitoPadres.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsCondicionCotiza.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsBarrios.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsBodegas.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsCentroCostos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsCentroOperaciones.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsClienteDetalle.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsCondicionesPago.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsListaPrecios.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsMonedas.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsMotivos.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsTipoDctoPedido.vb" />
+    <Compile Include="Clases Comercial\Ventas\Pedidos y reposiciones\ClsUnidadesNegocio.vb" />
+    <Compile Include="Clases Ingenieria\ClsDescuentosGlobales.vb" />
+    <Compile Include="Clases Ingenieria\ClsDescuentosMaterial.vb" />
+    <Compile Include="Clases Ingenieria\Norma NSR\ClsCombinacionPropiedadesDiseños.vb" />
+    <Compile Include="Clases Ingenieria\Norma NSR\ClsPropiedadesMasicas.vb" />
+    <Compile Include="Clases Ingenieria\Temporales\ClsAcabadoTemporal.vb" />
+    <Compile Include="Clases Ingenieria\Temporales\ClsArticuloTemporal.vb" />
+    <Compile Include="Clases Ingenieria\Temporales\ClsCostoPerfilTemporal.vb" />
+    <Compile Include="Clases Ingenieria\Temporales\ClsCostoVidrioTemporal.vb" />
+    <Compile Include="Clases Ingenieria\Temporales\ClsEspesorTemporal.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsComplementos.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsDescuentosGeneralesPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsDescuentosMaterialPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsDibujosItemsOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsDibujosPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsHijosOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsMaterialesPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsObservacionesPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsPadreOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsVariablesPlantillaOrdenProd.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsDescuentosGeneralesPlantillaOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsDescuentosMaterialPlantillaOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsDibujosPlantillaOped.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\ClsEncabeOrdenProd.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsDibujosItemsOped.vb" />
+    <Compile Include="Clases Produccion\Dpto Tecnico\Estimado\ClsEstimadosPerfileria.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsHistorialCorreosOrdenPed.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsItemsHijoOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsItemsOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsMaterialesPlantillaOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsObservacionesPlantillaOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsMovitoMotivoDevolucionOped.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsOrdenDePedido.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsDocumentosProblemasP.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsEncabezadoProblemasP.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsMovitoAccionesDefinidasPp.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsMovitoAccionesImnediatasPp.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsMovitoCausasPp.vb" />
+    <Compile Include="Clases Produccion\Problemas producción\ClsRutas.vb" />
+    <Compile Include="Clases Unoee\ClsGeneralesUnoee.vb" />
+    <Compile Include="Clases Utiles\ClsArchivosTexto.vb" />
+    <Compile Include="Clases Utiles\ClsUtilidades_Web_Mail.vb" />
+    <Compile Include="Parametros Comercial\ClsCostosExtraObra.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsConceptosEspeciales.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsDocumentosOT.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsTiposCuentas.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsTiposOrdenesTrabajo.vb" />
+    <Compile Include="Parametros Comercial\Trabajos items\ClsCostoTrabajoItem.vb" />
+    <Compile Include="Parametros Comercial\Trabajos items\ClsMovitoTrabajosCotiza.vb" />
+    <Compile Include="Parametros Comercial\Trabajos items\ClsTrabajosItems.vb" />
+    <Compile Include="Parametros Manufactura\ClsMedidasPerfileria.vb" />
+    <Compile Include="Parametros Produccion\Calidad\ClsCausas.vb" />
+    <Compile Include="Parametros Produccion\Calidad\ClsDestinatarios.vb" />
+    <Compile Include="Parametros Produccion\Calidad\ClsMotivosPorCausa.vb" />
+    <Compile Include="Parametros Produccion\ClsMotivosDevolucionOp.vb" />
+    <Compile Include="Parametros Produccion\Calidad\ClsMotivosPorSeccion.vb" />
+    <Compile Include="Parametros Produccion\Calidad\ClsSecciones.vb" />
+    <Compile Include="Parametros Produccion\ClsTercerosProduccion.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsConceptos.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsEncargados.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsPreciosInstalacion.vb" />
+    <Compile Include="Parametros Comercial\Parametros instalacion\ClsProveedores.vb" />
+    <Compile Include="Clases Unoee\ClsRegionesUnoee.vb" />
+    <Compile Include="Clases Comercial\Ventas\Ordenes de Pedido\ClsVariablesPlantillaOped.vb" />
+    <Compile Include="Clases Unoee\ClsArticulosUnoee.vb" />
+    <Compile Include="Clases Unoee\ClsMaterialesUnoee.vb" />
+    <Compile Include="Clases Unoee\ClsTercerosUnoee.vb" />
+    <Compile Include="Clases Utiles\ClsUtilidadesImagenes.vb" />
+    <Compile Include="Clases Utiles\ClsUtilidadesServidor.vb" />
+    <Compile Include="Parametros Comercial\ClsAluminio.vb" />
+    <Compile Include="Parametros Comercial\ClsComponentes.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoAcabado.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoAccesorio.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoNivel.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoOtrosArticulos.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoVidrio.vb" />
+    <Compile Include="Parametros Comercial\ClsDepartamentos.vb" />
+    <Compile Include="Parametros Comercial\ClsDirectores.vb" />
+    <Compile Include="Parametros Comercial\Notas de cobro\ClsEsquemaInforme.vb" />
+    <Compile Include="Parametros Comercial\ClsFactores.vb" />
+    <Compile Include="Parametros Comercial\ClsCategExposicion.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsCotizaciones.vb" />
+    <Compile Include="Clases Comercial\Contratos\Notas de cobro\ClsEsquemaNota.vb" />
+    <Compile Include="Parametros Comercial\Notas de cobro\ClsOrigenNotas.vb" />
+    <Compile Include="Parametros Comercial\ClsPaises.vb" />
+    <Compile Include="Parametros Comercial\ClsParametrosAIU.vb" />
+    <Compile Include="Parametros Comercial\Notas de cobro\ClsTiposNotas.vb" />
+    <Compile Include="Parametros Comercial\ClsTiposObras.vb" />
+    <Compile Include="Parametros Comercial\ClsVelocidadesViento.vb" />
+    <Compile Include="Parametros Comercial\ClsVendedoresSiesa.vb" />
+    <Compile Include="Clases Comercial\Ventas\Cotizaciones\ClsDibujosItemsCotizacion.vb" />
+    <Compile Include="Parametros Comercial\ClsPresionModelo.vb" />
+    <Compile Include="Parametros Comercial\ClsTipoCubiertas.vb" />
+    <Compile Include="Parametros Comercial\ClsManoObraInstalacion.vb" />
+    <Compile Include="Parametros Comercial\ClsTipoEdificacion.vb" />
+    <Compile Include="Parametros Comercial\ClsTasaImpuesto.vb" />
+    <Compile Include="Parametros Comercial\ClsTiempoEntrega.vb" />
+    <Compile Include="Parametros Comercial\ClsFormasPago.vb" />
+    <Compile Include="Parametros Comercial\ClsCiudades.vb" />
+    <Compile Include="Parametros Comercial\ClsGrupoUso.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoKiloAluminio.vb" />
+    <Compile Include="Parametros Comercial\ClsCostoAluminio.vb" />
+    <Compile Include="Parametros Comercial\ClsTiposIdentificacion.vb" />
+    <Compile Include="Parametros Comercial\ClsNivelesFamilias.vb" />
+    <Compile Include="Parametros Comercial\ClsVersionesCargasViento.vb" />
+    <Compile Include="Parametros Comercial\ClsVigencias.vb" />
+    <Compile Include="Parametros Generales\ClsAcabados.vb" />
+    <Compile Include="Parametros Generales\ClsArticulos.vb" />
+    <Compile Include="Parametros Generales\ClsImagenesArticulos.vb" />
+    <Compile Include="Parametros Generales\ClsParametrosTecnicosArticulo.vb" />
+    <Compile Include="Parametros Generales\ClsValoresParametrosTecnicosArticulo.vb" />
+    <Compile Include="Parametros Generales\ClsValoresVariables.vb" />
+    <Compile Include="Parametros Generales\ClsEspesores.vb" />
+    <Compile Include="Parametros Manufactura\ClsCaracteristicasAdicionales.vb" />
+    <Compile Include="Parametros Manufactura\ClsClasificacionModelos.vb" />
+    <Compile Include="Parametros Manufactura\ClsConfiguraciones.vb" />
+    <Compile Include="Clases Ingenieria\ClsDibujosModelo.vb" />
+    <Compile Include="Clases Utiles\ClsEnums.vb" />
+    <Compile Include="Parametros Generales\ClsEstados.vb" />
+    <Compile Include="Parametros Manufactura\ClsDescuentos.vb" />
+    <Compile Include="Parametros Manufactura\ClsFamiliaMaterial.vb" />
+    <Compile Include="Parametros Manufactura\ClsFamiliaModelo.vb" />
+    <Compile Include="Clases Ingenieria\ClsFormulacionMaterialesPlantilla.vb" />
+    <Compile Include="Clases Ingenieria\ClsMaterialesPlantilla.vb" />
+    <Compile Include="Parametros Manufactura\ClsMaterialPara.vb" />
+    <Compile Include="Clases Ingenieria\ClsObservacionesPlantilla.vb" />
+    <Compile Include="Parametros Manufactura\ClsOrientacionPosicionMaterial.vb" />
+    <Compile Include="Clases Ingenieria\ClsPlantillasModelos.vb" />
+    <Compile Include="Parametros Manufactura\ClsTipoModelo.vb" />
+    <Compile Include="Parametros Manufactura\ClsTiposCortes.vb" />
+    <Compile Include="Parametros Manufactura\ClsTiposDatos.vb" />
+    <Compile Include="Parametros Manufactura\ClsTiposMaterial.vb" />
+    <Compile Include="Parametros Manufactura\ClsUbicacionMaterial.vb" />
+    <Compile Include="Parametros Manufactura\ClsVariablesPlantillas.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Parametros Generales\ClsVariables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClsWsDiagram.cd" />
+    <None Include="ClsDiagram.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases Comercial\Costos\" />
+    <Folder Include="Clases Comercial\facturacion\" />
+    <Folder Include="Clases Comercial\Ventas\Instalacion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.vbproj">
+      <Project>{2583dc96-f7ba-4e87-97d3-215b6bf8dd92}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

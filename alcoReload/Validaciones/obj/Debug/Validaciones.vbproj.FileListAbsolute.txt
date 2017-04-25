@@ -1,0 +1,9 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\bin\Debug\Validaciones.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\bin\Debug\Validaciones.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\bin\Debug\Validaciones.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.vbproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Validaciones\obj\Debug\Validaciones.vbprojResolveAssemblyReference.cache

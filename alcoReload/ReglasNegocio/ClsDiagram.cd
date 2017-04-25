@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ReglasNegocio.ClsBaseParametros">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgECDAAAKAAAAIAAAABBAAAACAAAAAAAAAAAAAiAAAg=</HashCode>
+      <FileName>Clases Abstractas\ClsBaseParametros.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.Articulo" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClsArticulos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.CaracteristicaAdicional" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAABAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ClsCaracteristicasAdicionales.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.Configuracion" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ClsConfiguraciones.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.dibujos.DibujoModelo" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEAAAAAAQAAgAAAAAABIBgAgAQAAAIAQAA=</HashCode>
+      <FileName>ClsDibujosModelo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.FormulacionPlantilla" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAQAAgAAAAAABJAAAiAAEAAIAAAA=</HashCode>
+      <FileName>ClsFormulacionMaterialesPlantilla.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.MaterialPlantilla" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MQkABKGBkA4gKAQAgQAAQAZEAhAAIwBBgAACAAAUiJA=</HashCode>
+      <FileName>ClsMaterialesPlantilla.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.ObservacionPlantilla" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAQAAAAAAIBIEAAgAIAIEAAAAA=</HashCode>
+      <FileName>ClsObservacionesPlantilla.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.PlantillaModelo" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIIAEAIIAQBAAAAEBQARAiAJQAIBAAAAAMoAIBBAAEk=</HashCode>
+      <FileName>ClsPlantillasModelos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.TipoCorte" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAEAAAAgAABAAAAABAAAAAAAAIAAAA=</HashCode>
+      <FileName>ClsTiposCortes.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.TipoMaterial" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ClsTiposMaterial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.VariablePlantilla" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAMAAAAEAAAgAAABAAAEIEAAgAQAAAAAQAA=</HashCode>
+      <FileName>ClsVariablesPlantillas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.Acabado" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAgAAAAIAAABAAAAAEAAIAAAA=</HashCode>
+      <FileName>Parametros Generales\ClsAcabados.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.Estado" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametros Generales\ClsEstados.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.UnidaddeMedida" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAQAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametros Generales\ClsUnidadMedida.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.Variables" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAoAQBAAgAAAAAAAAAAAIgAAA=</HashCode>
+      <FileName>Parametros Generales\ClsVariables.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.ClasificacionModelo" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAIAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsClasificacionModelos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.FamiliaMaterial" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAGAAAAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsFamiliaMaterial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.FamiliaModelo" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAMAAAIAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsFamiliaModelo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.MaterialPara" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsMaterialPara.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.OrientacionPosicion" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAABAIAAAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsOrientacionPosicionMaterial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.TipoModelo" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Parametros Manufactura\ClsTipoModelo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.TipoDato" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAABAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsTiposDatos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReglasNegocio.UbicacionMaterial" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAABAIAAAAAAAAAEAAIAAAA=</HashCode>
+      <FileName>Parametros Manufactura\ClsUbicacionMaterial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,61 @@
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.Resources.resources
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.xml
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\Datos.dll
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\Datos.pdb
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\bin\Debug\Datos.xml
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.xml
+D:\Sistemas\SofwareInhouse\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.ResolveComReference.cache
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.Resources.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.Resources.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.pdb
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.dll
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.pdb
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\ReglasNegocio.xml
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.dll
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.pdb
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\bin\Debug\Datos.xml
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbprojResolveAssemblyReference.cache
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.Resources.resources
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.vbproj.GenerateResource.Cache
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.dll
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.xml
+H:\Sistemas\SofwareInhouse\Alco.sys\ALCOING\alcoReload\ReglasNegocio\obj\Debug\ReglasNegocio.pdb

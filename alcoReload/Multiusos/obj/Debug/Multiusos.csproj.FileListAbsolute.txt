@@ -1,0 +1,5 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Multiusos\bin\Debug\Multiusos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Multiusos\bin\Debug\Multiusos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Multiusos\obj\Debug\Multiusos.csprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Multiusos\obj\Debug\Multiusos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Multiusos\obj\Debug\Multiusos.pdb

@@ -1,0 +1,8 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\bin\Debug\MdiTabPagesBar.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\bin\Debug\MdiTabPagesBar.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.FormButton.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.Properties.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.csproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\MdiTabPagesBar\obj\Debug\MdiTabPagesBar.csprojResolveAssemblyReference.cache

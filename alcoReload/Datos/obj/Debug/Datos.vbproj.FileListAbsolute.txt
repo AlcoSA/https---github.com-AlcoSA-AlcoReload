@@ -1,0 +1,10 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\bin\Debug\Datos.dll.config
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\bin\Debug\Datos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\bin\Debug\Datos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\bin\Debug\Datos.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\bin\Debug\RichTextboxExtendido.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\bin\Debug\RichTextboxExtendido.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.DocumentoExtendido.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.ParteDocumento.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.csproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextboxExtendido\obj\Debug\RichTextboxExtendido.csprojResolveAssemblyReference.cache

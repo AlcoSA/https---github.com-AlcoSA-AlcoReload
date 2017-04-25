@@ -1,0 +1,12 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\bin\Debug\ManualesyAyudas.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\bin\Debug\ManualesyAyudas.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\bin\Debug\Interop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\Interop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.csproj.ResolveComReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.FrmVideoAyuda.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.Properties.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.csproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ManualesyAyudas\obj\Debug\ManualesyAyudas.pdb

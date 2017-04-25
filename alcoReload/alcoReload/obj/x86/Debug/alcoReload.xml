@@ -1,0 +1,326 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+alcoReload
+</name>
+</assembly>
+<members>
+<member name="T:alcoReload.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.addDocuments">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.addFx">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.Buscar_24x24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.Buscar_32x32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.Fx8x8">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.modDocuments">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.nodisponible">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.Recalcular_32x32">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaCotizaciones">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Datos\Comercial\COTIZACIONES.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaImagenesPP">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Datos\Produccion\Depto Tecnico\PROGRAMA\BD\ImagenesPP.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaTemp">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Planos\temp.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaUnoeeItems">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Planos\PlanosItems.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaUnoeePv">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Planos\PlanosPV.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.RutaUnooRep">
+<summary>
+  Busca una cadena traducida similar a \\servidor\Planos\PlanosRep\Plano.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.save">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:alcoReload.My.Resources.Resources.VIDRIO1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:alcoReload.FrmCreacionVariables.cargarCampos">
+ <summary>
+ Procedimiento que Carga los campos que se van a combinar con el texto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:alcoReload.frmEsquemasContratos.cargarCampos">
+ <summary>
+ Procedimiento que Carga los campos que se van a combinar con el texto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:alcoReload.frmContratos.GuardadoTotal_Click(System.Object,System.EventArgs)">
+ <summary>
+ Almacena la información del contrato en la base de datos.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:alcoReload.frmContratos.insertar">
+ <summary>
+ Procedimiento que guarda la información cuando el contrato es nuevo
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.modificar">
+ <summary>
+ Procedimiento que guarda en la base de datos la información modificada.
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.Cargar(System.Data.DataTable,System.Windows.Forms.DataGridView,System.Int32)">
+ <summary>
+ Procedimiento que carga la información por defecto de las cuadriculas de objetos, para y pólizas
+ </summary>
+ <param name="tb"></param>
+ <param name="dw"></param>
+ <param name="grid"></param>
+</member>
+<member name="M:alcoReload.frmContratos.CargarTRegistro">
+ <summary>
+ Carga la información de los tipos de registro que puede tener una sociedad
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.CargarCC">
+ <summary>
+ Cargar las cámaras de comercio
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.seleccionarTiposObra">
+ <summary>
+ Selecciona los tipos de obra según las cotizaciones seleccionadas por el usuario
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.seleccionObjetosObra(System.Windows.Forms.DataGridViewRow)">
+ <summary>
+ Selecciona los objetos del contrato según el tipo de obra seleccionada en el grid de tipos de obra.
+ </summary>
+ <param name="rw">recibe el row que se va a avaluar</param>
+</member>
+<member name="M:alcoReload.frmContratos.cargarTotales">
+ <summary>
+ Carga los totales sumando los valores de todos los items requeridos para las cotizaciones.
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.cargarTipoAnticipos">
+ <summary>
+ Procedimiento que crea el control con los tipos de anticipos que puedes existir con un datasource
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.CargarControlesFormulario">
+ <summary>
+ Carga la información predeterminada de los desplegables y de los grids 
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.CargarContratoNuevo">
+ <summary>
+ Cargar la información necesaria para la creación de un nuevo contrato.
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.cargarContratoParaModificacion">
+ <summary>
+ Carga la información del contrato cuando se va ha modificar
+ </summary>
+</member>
+<member name="M:alcoReload.frmContratos.verificarRequeridos(System.String@)">
+ <summary>
+ Verifica que los campos requeridos según las reglas de negocio si estén correctamente diligenciados
+ y devuelve el mensaje personalizado que será mostrado al usuario.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.frmContratos.validarImpuestos">
+ <summary>
+ Valida que las cotizaciones seleccionadas tengan el mismo tipo de impuestos.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.frmContratos.validaciones">
+ <summary>
+ Valida los campos según su tipo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.frmContratos.TotalSuministro">
+ <summary>
+ Calcula y devuelve la sumatoria de los precios totales de los items padres de las cotizaciones seleccionadas
+ por el usuario.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.frmContratos.TotalInstalacion">
+ <summary>
+ Calcula y devuelve la sumatoria de la instalación por artículo
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.FrmNotas.CargarControlesAdicionalesToolStrip">
+ <summary>
+ Procedimiento que crea el control de la fecha inicial en el plan de anticipos.
+ </summary>
+</member>
+<member name="P:alcoReload.FrmBuscador.Tabla">
+ <summary>
+ Tabla fuente en la que se hará la búsqueda
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:alcoReload.FrmBuscador.ColumnasVisibles">
+ <summary>
+ Columnas con el nombre que viene en el store procedure que serán visibles en el formulario de búsqueda
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:alcoReload.FrmBuscador.ColumnasResultados">
+ <summary>
+ Columnas con los valores que se van a devolver
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:alcoReload.FrmBuscador.Resultados">
+ <summary>
+ Diccionario de datos con los valores encontrados, la columna KEY contiene los nombres de columnas resultados indicadas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:alcoReload.FrmCotizaciones.insertar">
+ <summary>
+ Procedimiento que inserta la información por primera vez en la base de datos,
+ y cambia la variable de enumeriación a modificado.
+ </summary>
+</member>
+<member name="M:alcoReload.FrmCotizaciones.modificarCotiza">
+ <summary>
+ Procedimiento que modifica la información de la cotización 
+ </summary>
+</member>
+<member name="M:alcoReload.FrmPermisos.cargarUsuarios">
+ <summary>
+ Procedimiento que carga la información de los permisos según el id de usuario
+ </summary>
+</member>
+<member name="M:alcoReload.FrmPermisos.CargarGrupos">
+ <summary>
+ Procedimiento que carga la información de los permisos del grupo según el id del grupo
+ </summary>
+</member>
+<member name="M:alcoReload.FrmPermisos.seleccionar">
+ <summary>
+ Selecciona todos los nodos del treeView de permisos
+ </summary>
+</member>
+<member name="M:alcoReload.FrmPermisos.desseleccionar(System.Windows.Forms.TreeView,System.Windows.Forms.TreeNode)">
+ <summary>
+ Des selecciona los hijos del nodo referencia y el treeview referencia
+ </summary>
+ <param name="tw">TreeView al que se le va ha realizar la acción de des selección</param>
+ <param name="nodoReferencia"></param>
+</member>
+<member name="M:alcoReload.FrmPermisos.seleccionNodoInterno(System.Boolean,System.Windows.Forms.TreeNode)">
+ <summary>
+ Selecciona los nodos internos cuando el nodo tiene hijos
+ </summary>
+ <param name="seleccionas">indicador de acción bolean, true para seleccionar, false para des seleccionar</param>
+ <param name="ndp">objeto de tipo treenode a tratar</param>
+</member>
+<member name="M:alcoReload.FrmPermisos.recorrerPestañas(System.Object,System.Windows.Forms.TreeView,System.Windows.Forms.TreeNode)">
+ <summary>
+ Procedimiento que recorre todos los controles del ribbon35 principal para realizar
+ la carga de los permisos disponibles
+ </summary>
+ <param name="cnt">Recibe un objeto de tipo Ribbon35</param>
+ <param name="arbol">TreeView al que se le crearan los nodos según los controles del ribbon35</param>
+ <param name="nodo">Nodo que se va a tratar</param>
+</member>
+<member name="M:alcoReload.FrmPermisos.GuardadoTotal_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procedimiento que guarda la información según la los nodos seleccionados en el treeview de permisos
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:alcoReload.FrmPermisos.GuardarNodosHijos(System.Windows.Forms.TreeNode)">
+ <summary>
+ Procedimiento que guarda la información de los nodos hijos cuando el padre los tiene y cuando 
+ la seguridad es por grupo
+ </summary>
+ <param name="nodo"></param>
+</member>
+<member name="M:alcoReload.FrmPermisos.GuardarNodosHijosUsuario(System.Windows.Forms.TreeNode)">
+ <summary>
+ Procedimiento que guarda la información del los nodos hijos cuando el padre los tiene y cuando
+ la seguridad es por usuario.
+ </summary>
+ <param name="nodo"></param>
+</member>
+<member name="M:alcoReload.FrmPermisos.buscarNodo(System.Windows.Forms.TreeNode,System.Windows.Forms.TreeView@)">
+ <summary>
+ Procedimiento que busca un nodo especifico y lo selecciona
+ </summary>
+ <param name="nodo"></param>
+</member>
+</members>
+</doc>

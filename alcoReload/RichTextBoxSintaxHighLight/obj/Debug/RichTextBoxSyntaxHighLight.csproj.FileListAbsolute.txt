@@ -1,0 +1,5 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextBoxSintaxHighLight\bin\Debug\RichTextBoxSintaxHighLight.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextBoxSintaxHighLight\bin\Debug\RichTextBoxSintaxHighLight.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextBoxSintaxHighLight\obj\Debug\RichTextBoxSintaxHighLight.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextBoxSintaxHighLight\obj\Debug\RichTextBoxSintaxHighLight.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\RichTextBoxSintaxHighLight\obj\Debug\RichTextBoxSyntaxHighLight.csprojResolveAssemblyReference.cache

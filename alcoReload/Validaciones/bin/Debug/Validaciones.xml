@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Validaciones
+</name>
+</assembly>
+<members>
+<member name="T:Validaciones.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Validaciones.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Validaciones.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:Validaciones.ClsValidaciones.TextBoxDigitado(System.Windows.Forms.TextBox,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Retorna verdadero si el campo textbox contiene información
+ </summary>
+ <param name="txtVacio"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.RichTextBoxDigitado(System.Windows.Forms.RichTextBox,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Retorna verdadero si el campo richtextbox contiene información
+ </summary>
+ <param name="txtVacio"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.SoloLetras(System.Windows.Forms.ErrorProvider,System.Object)">
+ <summary>
+ Validará que los campos de texto contengan únicamente letras
+ </summary>
+ <param name="errorPrivider"></param>
+ <param name="obj"></param>
+</member>
+<member name="M:Validaciones.ClsValidaciones.EsNumero(System.Object,System.String,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Procedimiento para validar que en el campo TextBox tenga un número entero, decimal o double
+ </summary>
+ <param name="numero"></param>
+ <param name="tipoNumero"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.EmailCorrecto(System.Object,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Procedimiento útil para validar que un correo mínima mente cumpla con la estructura de una 
+ dirección de correo electrónico ya sea existente o no. 
+ </summary>
+ <param name="campo"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.NumeroMayorACero(System.Object,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Validará que los campos numéricos no tengan valores inferiores a 1
+ </summary>
+ <param name="numero"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.ComboBoxSeleccionado(System.Object,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Validará que hayan elegido algún registro del combo box indicado
+ </summary>
+ <param name="control"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+<member name="M:Validaciones.ClsValidaciones.GridSeleccionado(System.Object,System.Windows.Forms.ErrorProvider)">
+ <summary>
+ Validará que hayan elegido algún registro del combo box indicado
+ </summary>
+ <param name="control"></param>
+ <param name="errorProvider"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

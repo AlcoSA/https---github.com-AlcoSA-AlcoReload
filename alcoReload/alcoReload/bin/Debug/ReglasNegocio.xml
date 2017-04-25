@@ -1,0 +1,2581 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ReglasNegocio
+</name>
+</assembly>
+<members>
+<member name="T:ReglasNegocio.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ReglasNegocio.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ReglasNegocio.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:ReglasNegocio.clsClientesUnoee.t200_ClientesUnoeeByCliente(System.String)">
+ <summary>
+ Devuelve una lista de clientes con el nombre indicado
+ </summary>
+ <param name="nombre"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.clsClientesUnoee.t200_ClientesUnoeeByNit(System.String)">
+ <summary>
+ Devuelve una lista de clientes asociados al nit indicado
+ </summary>
+ <param name="nit"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.clsClientesUnoee.ClienteUnoeeByCliente(System.String)">
+ <summary>
+ Decvuelve la información del cliente con el nombre indicado
+ </summary>
+ <param name="nombre"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.clsClientesUnoee.ClienteUnoeeByNit(System.String)">
+ <summary>
+ Devuelve la información del cliene con el nit indicado
+ </summary>
+ <param name="nit"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCreacionVariablesEsquemas.selectAllVariables(System.Data.DataTable@)">
+ <summary>
+ Funcion que devuelve todas las variables disponibles
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.movitoComplementos.ClsMovitoComplementos.TraerAll">
+ <summary>
+ Selecciona toda la informacion de las relaciones que existen entre los items hijos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.movitoPadres.ClsMovitoPadres.TraerxIdCotiza(System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="idCotiza"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsBarrios.traerTodos(System.String,System.String,System.String)">
+ <summary>
+ Obtiene los barrios correspondientes al país, departamento y ciudad indicados
+ </summary>
+ <param name="idPais"></param>
+ <param name="idDepto"></param>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsClienteDetalle.TraerDetalleCliente(System.Int32,System.String)">
+ <summary>
+ Obtiene la información detallada de los clientes según su Id y el Id de la sucursal
+ </summary>
+ <param name="idCliente"></param>
+ <param name="idObra"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsListaPrecios.traerTodos">
+ <summary>
+ Obtieene los registros de listas precios de Unoee
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMonedas.traerTodos">
+ <summary>
+ Obtiene los tipos de moneda existentes en la base de datos Unoee
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.Insertar(System.String,System.Int32,System.String,System.String,System.Decimal,System.String,System.Decimal,System.Int32,System.Int32,System.Decimal,System.Int32,System.Decimal,System.Int32)">
+ <summary>
+ Inserta un nuevo artículo temporal en la base de datos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="idCotiza"></param>
+ <param name="referencia"></param>
+ <param name="descripcion"></param>
+ <param name="peso"></param>
+ <param name="unidadMedida"></param>
+ <param name="perimetro"></param>
+ <param name="idNivel"></param>
+ <param name="idFamiliaMaterial"></param>
+ <param name="porcentDesperdicio"></param>
+ <param name="idTasaImpuesto"></param>
+ <param name="costo"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.ExisteArticulo(System.String)">
+ <summary>
+ Función booleana que devuelve verdadero si existe algún artículo temporal con la referencia indicada
+ </summary>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.ExisteVidrio(System.String)">
+ <summary>
+ Función booleana que devuelve verdadero si existe un vidiro con la referencia indicada
+ </summary>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.TraerxIdCotiza(System.Int32)">
+ <summary>
+ Obtiene sólo los artículos temporales correspondientes a la cotización indicada
+ </summary>
+ <param name="idcotiza"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.TraerxId(System.Int32,System.Int32)">
+ <summary>
+ Obtiene el artículo correspondiente al idCotiza y idArtticulo indicados
+ </summary>
+ <param name="idCotiza"></param>
+ <param name="idArticulo"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticuloTemporal.TraerxReferencia(System.String)">
+ <summary>
+ Obtiene el artículo temporal correspondiente a la referencia indicada
+ </summary>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantillaOrdenProd.EliminarxId(System.Int32)">
+ <summary>
+ Elimina el material y todos los descuentos asociados a este
+ </summary>
+ <param name="id">Id del material</param>
+</member>
+<member name="M:ReglasNegocio.ClsUtilidades_Web_Mail.EnviarCorreo(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean,System.String[])">
+ <summary>
+ 
+ </summary>
+ <param name="destinatarios">Mail de los destinatarios separados por comas </param>
+ <param name="asunto">Asunto del mail</param>
+ <param name="mensaje">Mensaje del mail en texto plano o HTML</param>
+ <param name="mail_pass">mail y password del dominio alco desde donde se va a enviar el correo | por defecto alco@alco.com.co</param>
+ <param name="html">indica si el cuerpo del mail es html</param>
+ <returns>Indicador de si se envió el correo</returns>
+</member>
+<member name="M:ReglasNegocio.ClsAluminio.Insertar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Ingresa un nuevo registro de aluminio en la base de datos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="descripcion"></param>
+ <param name="version"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsAluminio.Modificar(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Actualiza el registro de aluminio correspondiente al id indicado
+ </summary>
+ <param name="id"></param>
+ <param name="descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsAluminio.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de aluminios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAluminio.TraerMaxVersion">
+ <summary>
+ Obtiene la máxima versión de los registros de aluminio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de componentes en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de componentes activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de componentes correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de componentes según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.TraerxIdTipoCotizacion(System.Int32)">
+ <summary>
+ Obtiene la lista de componentes correspondientes al tipo de cotización seleccionado
+ </summary>
+ <param name="idTipoCotiza"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Componente.ClsComponentes.traerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de componentes con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoAcabado.ClsCostoAcabado.Ingresar(System.Int32,System.Int32,System.Decimal,System.String)">
+ <summary>
+ Ingresa un nuevo registro de costo de acabado en la base de datos
+ </summary>
+ <param name="idAcabado"></param>
+ <param name="version"></param>
+ <param name="costo"></param>
+ <param name="usuarioCreacion"></param>
+</member>
+<member name="M:ReglasNegocio.CostoAcabado.ClsCostoAcabado.TraerUltimaVersion">
+ <summary>
+ Obtiene la última versión en que se encuentran los registros
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoAcabado.ClsCostoAcabado.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el costo correspondiente al Id indicado y su última versión
+ </summary>
+ <param name="idAcabado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoAcabado.ClsCostoAcabado.TraerTodos(System.Int32)">
+ <summary>
+ obtiene todos los registros de costo acabado
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoAccesorio.Insertar(System.String,System.Int32,System.Int32,System.Decimal)">
+ <summary>
+ Inserta un nuevo registro de costo accesorio en la base de datos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="idAccesorio"></param>
+ <param name="version"></param>
+ <param name="costo"></param>
+</member>
+<member name="M:ReglasNegocio.ClsCostoAccesorio.Modificar(System.Decimal,System.Int32,System.Int32)">
+ <summary>
+ Actualiza los costos indicados
+ </summary>
+ <param name="costo"></param>
+ <param name="idAccesorio"></param>
+ <param name="version"></param>
+</member>
+<member name="M:ReglasNegocio.ClsCostoAccesorio.TraerMaxVersion">
+ <summary>
+ Obtiene la última versión de los costos de accesorios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoAccesorio.TraerxIdAccesorio(System.Int32,System.Int32)">
+ <summary>
+ Obtiene el registro de costo accesorio correspondiente al Id de accesorio indicado
+ </summary>
+ <param name="idAccesorio"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoAccesorio.TraerCostoxReferencia(System.String)">
+ <summary>
+ Obtiene el costo de accesorio con la referencia indicada
+ </summary>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoNivel.ClsCostoNivel.Ingresar(System.Int32,System.Int32,System.Decimal,System.String,System.String)">
+ <summary>
+ Inserta la nueva versión de costos de niveles
+ </summary>
+ <param name="idNivel"></param>
+ <param name="version"></param>
+ <param name="costo"></param>
+ <param name="motivoCreacion"></param>
+ <param name="usuarioCreacion"></param>
+</member>
+<member name="M:ReglasNegocio.CostoNivel.ClsCostoNivel.TraerTodos(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Obtiene los los costos de nivel correspondientes a la versión indicada
+ </summary>
+ <param name="versionBase"></param>
+ <param name="dt"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoNivel.ClsCostoNivel.TraerMaxVersion">
+ <summary>
+ Obtiene la última versión del costo nivel
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoNivel.ClsCostoNivel.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el costo correspondiente al Id indicado en su última versión
+ </summary>
+ <param name="idNivel"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoOtrosArticulos.Insertar(System.String,System.Int32,System.Int32,System.Int32,System.Decimal)">
+ <summary>
+ Inserta un nuevo costo de otros artículos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="idArticulo"></param>
+ <param name="version"></param>
+ <param name="costo"></param>
+</member>
+<member name="M:ReglasNegocio.ClsCostoOtrosArticulos.TraerMaxVersion">
+ <summary>
+ Obtiene la máxima versión de los costos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoOtrosArticulos.TraerTodos(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de costos de la familia Otros
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoOtrosArticulos.TraerxIdArticulo(System.Int32,System.Int32)">
+ <summary>
+ Obtiene el registro correspondiente al id de artículo indicado
+ </summary>
+ <param name="idArticulo"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoVidrio.Insertar(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal)">
+ <summary>
+ Inserta un nuevo registro de costos de vidrio en la base de datos
+ </summary>
+</member>
+<member name="M:ReglasNegocio.ClsCostoVidrio.TraerMaxVersion">
+ <summary>
+ Obtiene la máxima versión del costo de vidrio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCostoVidrio.TraerTodos(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Obtiene los registros de costo vidrio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.Ingresar(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de directores en la base de datos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="nombres"></param>
+ <param name="telefono"></param>
+ <param name="movil"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.Modificar(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="id"></param>
+ <param name="nombres"></param>
+ <param name="telefono"></param>
+ <param name="movil"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de directores activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de directores correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de directores según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDirectores.TraerxNombre(System.String)">
+ <summary>
+ Obtiene el registro de directores con el nombre indicado
+ </summary>
+ <param name="nombre"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEsquemaInforme.Insertar(System.String,System.Int32,System.String,System.String,System.Boolean)">
+ <summary>
+ Inserta el nuevo registro de esquema de informe
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="IdTipoNota"></param>
+ <param name="descripcion"></param>
+ <param name="pieDePagina"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEsquemaInforme.Modificar(System.Int32,System.Int32,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Actualiza el registro de esquema informe correspondiente al id indicado
+ </summary>
+ <param name="idTipoNota"></param>
+ <param name="descripcion"></param>
+ <param name="pieDePagina"></param>
+ <param name="usuarioModi"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEsquemaInforme.traerTodos">
+ <summary>
+ Obtiene todos los registros de esquema informe
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEsquemaInforme.traerByTipoNota(System.Int32)">
+ <summary>
+ Obtiene todos los registros corespondientes al tipo de nota indicado
+ </summary>
+ <param name="idTipoNota"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.Ingresar(System.String,System.Decimal,System.Int32,System.Int32,System.String,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de factores en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="tasa"></param>
+ <param name="idEstado"></param>
+ <param name="idCiudad"></param>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.Modificar(System.Int32,System.Int32,System.Int32,System.String,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="idEstado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.ExisteFactor(System.Decimal,System.Int32)">
+ <summary>
+ Indica si existe un factor asociado a la ciudad seleccionada
+ </summary>
+ <param name="tasa"></param>
+ <param name="rowidCiud"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.ExisteValorDefecto(System.Int32)">
+ <summary>
+ Indica si la ciudad ya tiene un factor por defecto
+ </summary>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.traerValorDefectoByCiudad(System.Int32)">
+ <summary>
+ Obtiene el factor por defecto de la ciudad indicada
+ </summary>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de factores activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de factores correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.TraerxSigla(System.String)">
+ <summary>
+ Obtiene el registro de factores con la sigla indicada
+ </summary>
+ <param name="ciudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de factores según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.TraerxEstadoAndCiudad(System.Int32,System.Int32)">
+ <summary>
+ Obtiene los registros con el estado y la ciudad indicada, ordenados por valor defecto
+ </summary>
+ <param name="idEstado"></param>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Factores.ClsFactores.TraerUltimoxCiudad(System.Int32)">
+ <summary>
+ Obtiene el último factor ingresado para una ciudad desde el formulario de cotizaciones
+ </summary>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de categorías de exposición en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de categorías de exposición activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de categorías de exposición correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de categorías de exposición con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CategExposicion.ClsCategExposicion.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de categorías de exposición según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.ModificarEstado(System.Int32,System.String)">
+ <summary>
+ Modifica el estado de la cotización
+ </summary>
+ <param name="idEstado">Id del estado que le asignará a la cotización</param>
+ <param name="cadena">Lista concatenada con ',' de los Id de las cotizaciones a actualizar</param>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.ActualizarVersiones(System.Int32)">
+ <summary>
+ Actualiza las versiones de los costos a la versión actual.
+ </summary>
+ <param name="idCotiza"></param>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TieneTemporales(System.Int32)">
+ <summary>
+ Devuelve verdadero 
+ </summary>
+ <param name="idCotiza"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerNumeroDocumento(System.Int32)">
+ <summary>
+ Obtiene los número de documento de los clientes registrados en MRP y Unoee
+ </summary>
+ <param name="tipoDocumento">Servirá como filtro para identificar si es está buscando una cádula o un NIT</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerNombreCliente">
+ <summary>
+ Obtiene el nombre del cliente para completar el textbox
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerNombreObra(System.String)">
+ <summary>
+ Obtiene los nombres de las obras que pertenecen el cliente indicado
+ </summary>
+ <param name="nombreCliente"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxNumeroDocumento(System.String)">
+ <summary>
+ Obtiene los la información del cliente con el número de documento indicado
+ </summary>
+ <param name="numeroDocumento"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxNombreCotiza(System.String)">
+ <summary>
+ Función que devuelve la información de la cotización según el nombre personalizado de la cotización
+ </summary>
+ <param name="nomCotiza"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxNombreCliente(System.String)">
+ <summary>
+ Obtiene los registros asociados al nombre de cliente seleccionado
+ </summary>
+ <param name="nombreCliente"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxNombreObra(System.String)">
+ <summary>
+ Obtiene los reguistros correspondientes al nombre de obra
+ </summary>
+ <param name="nombreObra"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerMaxIdCotiza">
+ <summary>
+ Obtiene el id de la última cotización ingresada
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Función que devuelve toda la información de las cotizaciones
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.traerTodosParaContratos">
+ <summary>
+ Función que devuelve toda la información de las cotizaciones
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxId(System.Int32)">
+ <summary>
+ Función que devuelve la información de la cotización según el id recibido
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerBetweenFecha(System.DateTime,System.DateTime)">
+ <summary>
+ Función que devuelve la información entre un rango de fechas
+ </summary>
+ <param name="fechaInicial"></param>
+ <param name="fechaFin"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.ClsCostizaciones.TraerxEstado(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Obtiene los registros de cotizacion de acuerdo a su estado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.cotizacion.#ctor(System.Int32,System.String,System.DateTime,System.DateTime,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Decimal,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Boolean)">
+ <summary>
+ Información de toda la cotización
+ </summary>
+ <param name="id"></param>
+ <param name="nombreCotizacion"></param>
+ <param name="fechaCreacion"></param>
+ <param name="fechaCotizacion"></param>
+ <param name="usuarioCreacion"></param>
+ <param name="cliente"></param>
+ <param name="idTipoIdentificacion"></param>
+ <param name="numeroIdentificacion"></param>
+ <param name="digitoVerificacion"></param>
+ <param name="telefonoCliente"></param>
+ <param name="direccionCliente"></param>
+ <param name="mailCliente"></param>
+ <param name="nombreContactoCliente"></param>
+ <param name="nombreObra"></param>
+ <param name="nombreContactoObra"></param>
+ <param name="telefonoObra"></param>
+ <param name="mailObra"></param>
+ <param name="idCiudad"></param>
+ <param name="nombreCiudad"></param>
+ <param name="descuentoGlobal"></param>
+ <param name="idFormaPago"></param>
+ <param name="idAcabado"></param>
+ <param name="nombreAcabado"></param>
+ <param name="idTiempoEntrega"></param>
+ <param name="idTasaImpuesto"></param>
+ <param name="idFactor"></param>
+ <param name="versionCostoVidrio"></param>
+ <param name="versionCostoAcabado"></param>
+ <param name="versionCostoNivel"></param>
+ <param name="versionCostoKiloAluminio"></param>
+ <param name="versionCostoAccesorio"></param>
+ <param name="versionCostoOtrosArticulos"></param>
+ <param name="idEstado"></param>
+ <param name="estado"></param>
+ <param name="numeroImpresiones"></param>
+ <param name="idHistoriaModificaciones"></param>
+ <param name="idTipoEdificacion"></param>
+ <param name="idGrupoUso"></param>
+ <param name="idCategoriaExposicion"></param>
+ <param name="alturaCaballete"></param>
+ <param name="alturaAlero"></param>
+ <param name="anchoEdificio"></param>
+ <param name="altoEdificio"></param>
+ <param name="idTipoCubierta"></param>
+ <param name="conInstalacion"></param>
+ <param name="idManoObraInstalacion"></param>
+ <param name="idComponente"></param>
+ <param name="idVendedorSiesa"></param>
+ <param name="prefijoVendedor"></param>
+ <param name="idTipoCotizacion"></param>
+ <param name="idVigencia"></param>
+ <param name="porcAdministracion"></param>
+ <param name="porcImprovistos"></param>
+ <param name="porcUtilidad"></param>
+ <param name="alturaEntreLosas"></param>
+ <param name="descuentoInstalacion"></param>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.cotizacion.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Información del cliente
+ </summary>
+ <param name="idTipoDocumento"></param>
+ <param name="numDocumento"></param>
+ <param name="cliente"></param>
+ <param name="telefono"></param>
+ <param name="direccion"></param>
+ <param name="correo"></param>
+ <param name="nombreContacto"></param>
+</member>
+<member name="M:ReglasNegocio.cotizaciones.cotizacion.#ctor(System.String,System.String,System.String,System.String)">
+ <summary>
+ Información de la obra
+ </summary>
+ <param name="nombreObra"></param>
+ <param name="contactoObra"></param>
+ <param name="telefonoObra"></param>
+ <param name="mailObra"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEsquemaNota.Insertar(System.String,System.Int32,System.String,System.String)">
+ <summary>
+ Inserta la descripción y el pie de página de la nota indicada
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="idNotaCobro"></param>
+ <param name="descripcion"></param>
+ <param name="pieDePagina"></param>
+</member>
+<member name="M:ReglasNegocio.ClsOrigenNotas.Insertar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Ingresa un nuevo registro de origen notas a la base de datos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsOrigenNotas.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Actualiza el registro de origen de notas correspondiente al id
+ </summary>
+ <param name="id"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsOrigenNotas.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de origenes de notas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsParametrosAIU.Insertar(System.String,System.Decimal,System.Decimal,System.Decimal)">
+ <summary>
+ Ingresa un nuevo registro en la tabla de parámetros IVA
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="porcAdministracion"></param>
+ <param name="porcImprovistos"></param>
+ <param name="porcUtilidad"></param>
+</member>
+<member name="M:ReglasNegocio.ClsParametrosAIU.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los porcentajes registrados en parámetros IVA
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsParametrosAIU.traerUltimo">
+ <summary>
+ Obtiene los porcentajes correspondientes al último registro de parámetros IVA
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposNotas.Insertar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tipos de notas en base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposNotas.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al id indicado
+ </summary>
+ <param name="Id"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposNotas.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tipos notas
+ </summary>
+ <param name="dt"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.Ingresar(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tipo de obra en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idComponente"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tipos de obra activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tipo obra correspondiente al Id
+ </summary>
+ <param name="Id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de estados según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposObras.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de tipos obras con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVelocidadesViento.Insertar(System.String,System.Int32,System.Int32,System.Decimal,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="usuario"></param>
+ <param name="idciudad"></param>
+ <param name="idversion"></param>
+ <param name="valor"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVelocidadesViento.Modificar(System.Int32,System.String,System.Int32,System.Int32,System.Decimal,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idciudad"></param>
+ <param name="idversion"></param>
+ <param name="valor"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVelocidadesViento.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de aluminios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVendedoresSiesa.Modificar(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="id"></param>
+ <param name="idEstado"></param>
+ <param name="idDirector"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVendedoresSiesa.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de vendedores activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVendedoresSiesa.TraerxEstado(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de vendedores según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVendedoresSiesa.TraerxIdSiesa(System.String)">
+ <summary>
+ Obtiene el vendedor correspondiente al id Siesa indicado
+ </summary>
+ <param name="idSiesa"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.Ingresar(System.String,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Inserta un nuevo registro de presión modelo en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.modificar(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de presión modelos activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de presión modelo correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de presión modelo con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPresionModelo.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de presión modelos según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tipo cubierta en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tipo cubierta activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tipo cubierta correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de tipo cubierta con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoCubuerta.ClsTipoCubierta.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de tipo cubierta según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.Ingresar(System.String,System.String,System.Decimal,System.Int32,System.String,System.Int32,System.Int32)">
+ <summary>
+ Procedimiento  que ingresa la informacion de la mano de obra de instalacion
+ </summary>
+ <param name="usuario"></param>
+ <param name="idUnidadMedida"></param>
+ <param name="valor"></param>
+ <param name="idEstado"></param>
+ <param name="descripcion"></param>
+ <param name="idCiudad"></param>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.Modificar(System.String,System.Decimal,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Procedimiento que actualiza la informacion de la mano de obra de instalacion
+ </summary>
+ <param name="idUnidadMedida"></param>
+ <param name="valor"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="Descripcion"></param>
+ <param name="idCiudad"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Funcion que devuelve la informacion de todas las tasas de impuesto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.traerUnidades">
+ <summary>
+ Función que devuelve las unidades de medida
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.TraerxId(System.Int32)">
+ <summary>
+ Funcion que trae la informacion de las identidicaciones segun el id del tipo de identificacion
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.TraerxDescripcion(System.String)">
+ <summary>
+ Indica si existe algún registro según la descripción
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ManoObraInstalacion.ClsManoObraInstalacion.TraerxEstado(System.Int32)">
+ <summary>
+ Funcion que trae la informacion segun el estado de tasa de impuesto
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tipo edificación en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="Descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tipo edificación activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tipo edificación correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de tipo edificación con la descripción indicada
+ </summary>
+ <param name="Descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.tipoEdificacion.ClsTipoEdificacion.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de tipo edificación según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.Ingresar(System.String,System.String,System.Int32,System.String,System.Decimal,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tasa impuesto en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+ <param name="sigla"></param>
+ <param name="tasa"></param>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.Modificar(System.String,System.String,System.Int32,System.String,System.Decimal,System.Int32,System.Int32)">
+ <summary>
+ Procedimiento que actualiza la informacion de la tasa segun el id recibido
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="sigla"></param>
+ <param name="tasa"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tasa impuesto activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tasa impuesto correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.TraerxSigla(System.String)">
+ <summary>
+ Obtiene el registro de tasa impuesto con la sigla indicada
+ </summary>
+ <param name="sigla"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TasaImpuesto.ClsTasaImpuesto.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de tasas de impuesto según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.Ingresar(System.String,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tiempo de entrega en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+ <param name="motivo"></param>
+ <param name="valorPorDefecto"></param>
+ <param name="dias"></param>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.Modificar(System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="motivo"></param>
+ <param name="id"></param>
+ <param name="valorPorDefecto"></param>
+ <param name="dias"></param>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tiempo entrega activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tiempo entrega correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de tiempo entrega con la descripción indicada
+ </summary>
+ <param name="nombre"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.TiempoEntrega.ClsTiempoEntrega.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de tiempo entrega según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de formas de pago en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuarioModi"></param>
+ <param name="idEstado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de formas de pago activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de forma de pago correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de forma de pago con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.FormasPago.ClsFormasPago.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de estados según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.Ciudades.ClsCiudades.TraerIdDptoAndIdPais(System.Int32)">
+ <summary>
+ Obtiene el id de departamento y país cuando se necesite cargar una ciudad conociendo su Id
+ </summary>
+ <param name="idCiudad"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de grupo de uso en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.Modificar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de grupo de uso activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de grupo de uso correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de grupo de uso con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.grupoUso.ClsGrupoUso.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de grupos de uso según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoKiloAluminio.ClsCostoKiloAluminio.Ingresar(System.Int32,System.String,System.Decimal,System.Int32)">
+ <summary>
+ Inserta una nueva version y costo de kilo de aluminio
+ </summary>
+ <param name="idCostokAluminio"></param>
+ <param name="usuarioCreacion"></param>
+ <param name="costo"></param>
+ <param name="version"></param>
+</member>
+<member name="M:ReglasNegocio.CostoKiloAluminio.ClsCostoKiloAluminio.TraerUltimaVersion">
+ <summary>
+ Obtiene la última versión del costo por kilo de aluminio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoKiloAluminio.ClsCostoKiloAluminio.TraerUltimoCosto">
+ <summary>
+ Obtiene el costo correspondiente a la última versión del costo por kilo aluminio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.CostoKiloAluminio.ClsCostoKiloAluminio.TraerTodos(System.Int32)">
+ <summary>
+ Obtiene todos los registros de costo kilo aluminio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.Ingresar(System.String,System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de tipo identificación en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="prefijo"></param>
+ <param name="descripcion"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.Modificar(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el registro correspondiente al Id en la base de datos
+ </summary>
+ <param name="prefijo"></param>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idestado"></param>
+ <param name="id"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de tipos identificación activos e inactivos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.TraerxId(System.Int32)">
+ <summary>
+ Obtiene el registro de tipo identificación correspondiente al Id
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.TraerxDescripcion(System.String)">
+ <summary>
+ Obtiene el registro de tipo identificación con la descripción indicada
+ </summary>
+ <param name="descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.TraerxPrefijo(System.String)">
+ <summary>
+ Obtiene el registro de tipo identificación con el prefijo indicado
+ </summary>
+ <param name="prefijo"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposIdentificacion.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de tipos identificación según el estado indicado
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsNivelesFamilias.Ingresar(System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Ingresa un nuevo registro de niveles familia en la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="versioncosto"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsNivelesFamilias.Modificar(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+ <summary>
+ Modifica la información del registro indicado
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="versioncosto"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsNivelesFamilias.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registro de niveles
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsNivelesFamilias.TraerMaxVersion">
+ <summary>
+ Obtiene la última versión de los niveles
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsNivelesFamilias.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene los niveles que se encuentren activos
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVersionesCargasViento.Insertar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="descripcion"></param>
+ <param name="version"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVersionesCargasViento.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="id"></param>
+ <param name="version"></param>
+ <param name="descripcion"></param>
+ <param name="usuario"></param>
+ <param name="idEstado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVersionesCargasViento.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de aluminios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVersionesCargasViento.TraerxEstado(System.Int32)">
+ <summary>
+ Obtiene todos los registros de aluminios
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVigencias.Ingresar(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Inserta un nuevo registro de vigencias
+ </summary>
+ <param name="usuario"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVigencias.Modificar(System.Int32,System.String,System.Int32,System.Int32)">
+ <summary>
+ Actualiza el estado del registro
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idEstado"></param>
+ <param name="valorDefecto"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVigencias.traerTodos(System.Data.DataTable@)">
+ <summary>
+ Obtiene todos los registros de vigencias
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVigencias.traerxEstado(System.Int32)">
+ <summary>
+ Obtiene los registros en estado activo
+ </summary>
+ <param name="idEstado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.Ingresar(System.String,System.String,System.String,System.Byte[],System.Int32,System.Int32)">
+ <summary>
+ Ingresa un nuevo acabado a la base de datos
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="prefijo"></param>
+ <param name="imagen"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.Modificar(System.Int32,System.String,System.String,System.String,System.Byte[],System.Int32,System.Int32)">
+ <summary>
+ Actualiza todos los datos de un acabado
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="prefijo"></param>
+ <param name="imagen"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerxFamiliaMaterial(System.Int32)">
+ <summary>
+ Obtiene los registros correspondientes al id familia material indicado
+ </summary>
+ <param name="idFamiliaMaterial"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.ExisteByNombreAndMaterial(System.String,System.Int32)">
+ <summary>
+ Retorna verdadero si existe algún acabado con el mismo nombre en la familia indicada
+ </summary>
+ <param name="nombre"></param>
+ <param name="idFamiliaMaterial"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.ExisteByPrefijoAndMaterial(System.String,System.Int32)">
+ <summary>
+ Retorna verdadero si existe algún acabado con el mismo prefijo en la familia indicada
+ </summary>
+ <param name="prefijo"></param>
+ <param name="idFamiliaMaterial"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerxEstado(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados asociados a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerxPrefijo(System.String)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados filtrados por un prefijo
+ </summary>
+ <param name="prefijo"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsAcabados.TraerxNombre(System.String)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados asociados a un nombre
+ </summary>
+ <param name="nombre"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.Ingresar(System.String,System.Int32,System.String,System.String,System.Decimal,System.Decimal,System.String,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Int32,System.Decimal)">
+ <summary>
+ Inserta un nuevo registro en la tabla de artículos
+ </summary>
+ <param name="usuario"></param>
+ <param name="idfamiliamaterial"></param>
+ <param name="referencia"></param>
+ <param name="descripcion"></param>
+ <param name="peso"></param>
+ <param name="perimetro"></param>
+ <param name="unidadmedida"></param>
+ <param name="nivel"></param>
+ <param name="porcDesperdicio"></param>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.Modificar(System.Int32,System.String,System.Int32,System.String,System.String,System.Decimal,System.Decimal,System.String,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Int32)">
+ <summary>
+ Modifica la información del registro indicado
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idfamiliamaterial"></param>
+ <param name="referencia"></param>
+ <param name="descripcion"></param>
+ <param name="peso"></param>
+ <param name="perimetro"></param>
+ <param name="unidadMedida"></param>
+ <param name="nivel"></param>
+ <param name="porcDesperdicio"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.ExisteArticulo(System.Int32,System.String)">
+ <summary>
+ Retorna verdadero si existe el registro con los valores ingresados
+ </summary>
+ <param name="idFamiliaMaterial"></param>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los artículos ragistrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener los artículos filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.TraerxReferencia(System.String)">
+ <summary>
+ Obtiene la información del artículo correspondiente a la referencia indicada
+ </summary>
+ <param name="referencia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.TraerxFamiliaMaterial(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Procedimiento que devuelve os registros de artículos correspondientes al rowid de familia material indicado
+ </summary>
+ <param name="idFamiliaMaterial"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.TraerOtros(System.Data.DataTable@)">
+ <summary>
+ Obtiene los articulos de la familia otros, trabajo vidrio y trabajo perfilería
+ </summary>
+ <param name="dt"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsArticulos.traerUnidades">
+ <summary>
+ Función que devuelve las unidades de medida
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsValoresVariables.Ingresar(System.String,System.Int32,System.String,System.Boolean,System.Boolean,System.Int32,System.String)">
+ <summary>
+ Este procedimiento sirve para ingresar una nueva unidad de medida 
+ </summary>
+ <param name="usuario"></param>
+ <param name="idvariable"></param>
+ <param name="valor"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsValoresVariables.Modificar(System.Int32,System.String,System.Int32,System.String,System.Boolean,System.Boolean,System.Int32,System.String)">
+ <summary>
+ Este procedimiento sirve para actualizar las unidades de medida existentes en el sistema
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idvariable"></param>
+ <param name="valor"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsValoresVariables.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las unidades de medida registradas en el sistema
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsValoresVariables.TraerxIdVariable(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener unidades de medida filtradas por ID
+ </summary>
+ <param name="idvariable"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para ingresar un nuevo acabado
+ </summary>
+ <param name="usuario"></param>
+ <param name="descripcion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar algún acabado existente en el sistema
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="prefijo"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.TraerxEstado(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados asociados a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.TraerxPrefijo(System.String)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados filtrados por un prefijo
+ </summary>
+ <param name="prefijo"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEspesores.TraerxDescripcion(System.String)">
+ <summary>
+ Este procedimiento sirve para obtener todos los acabados asociados a un nombre
+ </summary>
+ <param name="Descripcion"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCaracteristicasAdicionales.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva característica adicional al sistema
+ </summary>
+ <param name="usuario"></param>
+ <param name="prefijo"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsCaracteristicasAdicionales.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar una característica adicional en el sistema
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="prefijo"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsCaracteristicasAdicionales.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las características adicionales registradas en el sistema
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCaracteristicasAdicionales.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener características adicionales filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsCaracteristicasAdicionales.TraerxEstado(System.Int32)">
+ <summary>
+ Funcion que devuelve una lista de las características adicionales según su estado
+ </summary>
+ <param name="estado">Valor del estado [Activo=1, Inactivo=2]</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsClasificacionModelos.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva clasificación de modelos
+ </summary>
+ <param name="usuario"></param>
+ <param name="clasificacion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsClasificacionModelos.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar alguna clasificación de modelos
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="clasificacion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsClasificacionModelos.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las clasificaciones de modelos registradas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsClasificacionModelos.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las clasificaciones de modelos filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsClasificacionModelos.TraerxEstado(System.Int32)">
+ <summary>
+ Trae todos los parámetros de la tabla clasificación modelo, según el estado
+ </summary>
+ <param name="estado">Valor del estado [Activo=1, Inactivo=2]</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsConfiguraciones.Ingresar(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar configuraciones en el sistema
+ </summary>
+ <param name="usuario"></param>
+ <param name="configuracion"></param>
+ <param name="numerocuerpos"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsConfiguraciones.Modificar(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar las configuraciones registradas
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="configuracion"></param>
+ <param name="numerocuerpos"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsConfiguraciones.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las configuraciones registradas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsConfiguraciones.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para traer las configuraciones filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsConfiguraciones.TraerxEstado(System.Int32)">
+ <summary>
+ Esta funcion devuelve una lista con las configuraciones posibles, según el estado de estado
+ </summary>
+ <param name="estado">Valor del estado [Activo=1, Inactivo=2]</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDibujosModelo.Ingresar(System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para ingresar un nuevo dibujo
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="idplantilla"></param>
+ <param name="dxf"></param>
+ <param name="estado"></param>
+ <returns>Id del ultimo registro ingresado</returns>
+</member>
+<member name="M:ReglasNegocio.ClsDibujosModelo.Modificar(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para modificar un dibujo existente
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idplantilla"></param>
+ <param name="nombre"></param>
+ <param name="dxf"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsDibujosModelo.TraerTodos">
+ <summary>
+ Este procedimiento sirve para obtener todos los dibujos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsDibujosModelo.TraerxIdPlantilla(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener dibujos asociados a una plantilla
+ </summary>
+ <param name="idplantilla"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEstados.Ingresar(System.String,System.String,System.Int32,System.String)">
+ <summary>
+ Este procedimiento sirve para ingresar un nuevo estado
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="descripcion"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEstados.Modificar(System.Int32,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ Actualiza los registros de los formularios existentes
+ </summary>
+ <param name="id"></param>
+ <param name="descripcion"></param>
+ <param name="usuarioModificacion"></param>
+</member>
+<member name="M:ReglasNegocio.ClsEstados.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los estados registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsEstados.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todos los estados filtrados por un ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaMaterial.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para ingresar una nueva familia de materiales
+ </summary>
+ <param name="usuario"></param>
+ <param name="famialiaMaterial"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaMaterial.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar las familias de materiales registradas
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="famialiaMaterial"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaMaterial.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las familias de materiales resgistradas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaMaterial.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las familias de materiales filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaMaterial.TraexEstado(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las familias de materiales asociadas a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaModelo.Ingresar(System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva familia de modelos
+ </summary>
+ <param name="usuarioCreacion"></param>
+ <param name="familia"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaModelo.Modificar(System.Int32,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ Este procedimiento sirve para actualizar una familia de modelos registrada
+ </summary>
+ <param name="id"></param>
+ <param name="usuarioModificacion"></param>
+ <param name="familia"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaModelo.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las familias de modelos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaModelo.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener todas las familias de modelos filtradas por un ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFamiliaModelo.TraerxEstado(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Esta funcion devuelve una lista de familias de modelo, según el valor de su estado
+ </summary>
+ <param name="estado">Valor del estado [Activo=1, Inactivo=2]</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFormulacionMaterialesPlantilla.Ingresar(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva formulación asociada a las variables y los materiales
+ </summary>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="idmaterialmodelo"></param>
+ <param name="formula"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFormulacionMaterialesPlantilla.Modificar(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar las formulaciones de materiales registradas
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="idmaterialmodelo"></param>
+ <param name="formula"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsFormulacionMaterialesPlantilla.TraerTodos">
+ <summary>
+ Este procedimiento sirve para obtener todas las formulaciones de materiales 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsFormulacionMaterialesPlantilla.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener formulaciones de materiales filtradas por un ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.Ingresar(System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar información de los materiales asignados a una plantilla
+ </summary>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="idfamiliamateria"></param>
+ <param name="idorientacionposicionmaterial"></param>
+ <param name="articulo"></param>
+ <param name="idubicacionmaterial"></param>
+ <param name="idmaterialpara"></param>
+ <param name="acabado"></param>
+ <param name="idtipoMaterial"></param>
+ <param name="idtipocortes"></param>
+ <param name="cantidad"></param>
+ <param name="ancho"></param>
+ <param name="alto"></param>
+ <param name="descuento"></param>
+ <param name="observaciones"></param>
+ <param name="estado"></param>
+ <param name="peso"></param>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.Modificar(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar los materiales asignados a una plantilla existentes 
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="idfamiliamateria"></param>
+ <param name="idorientacionposicionmaterial"></param>
+ <param name="articulo"></param>
+ <param name="idubicacionmaterial"></param>
+ <param name="idmaterialpara"></param>
+ <param name="acabado"></param>
+ <param name="idtipoMaterial"></param>
+ <param name="idtipocortes"></param>
+ <param name="cantidad"></param>
+ <param name="ancho"></param>
+ <param name="alto"></param>
+ <param name="peso"></param>
+ <param name="descuento"></param>
+ <param name="observaciones"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.TraerTodos">
+ <summary>
+ Este procedimiento sirve para obtener todos los materiales asignados a una plantilla 
+ que estén registrados en el sistema
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.TraerxId(System.Int32)">
+ <summary>
+ Retorna un material según su columna de identificación
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.TraerxIdplantilla(System.Int32)">
+ <summary>
+ Retorna todos los materiales pertenecientes a una plantilla
+ </summary>
+ <param name="idplantilla"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialesPlantilla.validarMateriales(System.Collections.Generic.List{ReglasNegocio.MaterialPlantilla},System.String@)">
+ <summary>
+ Valida que los elementos de los materiales de una plantilla, esten correctos y completos
+ </summary>
+ <param name="listamateriales"></param>
+ <param name="mensaje"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialPara.Ingresar(System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva ubicación del material
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialPara.Modificar(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar la ubicación del material
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialPara.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las unbicaciones de los materiales
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsMaterialPara.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las ubicaciones de los materiales filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsObservacionesPlantilla.Ingresar(System.String,System.Int32,System.Int16,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva observación
+ </summary>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="visibiilidad"></param>
+ <param name="estado"></param>
+ <returns>Id del ultimo registro ingresado</returns>
+</member>
+<member name="M:ReglasNegocio.ClsObservacionesPlantilla.Modificar(System.Int32,System.String,System.Int32,System.Int16,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar las observaciones registradas
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idplantillamodelo"></param>
+ <param name="visibilidad"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsObservacionesPlantilla.TraerTodos">
+ <summary>
+ Este procedimiento sirve para obtener todas las observaciones registradas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsObservacionesPlantilla.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las observaciones filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsOrientacionPosicionMaterial.Ingresar(System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar las posiciones de los materiales
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsOrientacionPosicionMaterial.Modificar(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar las posiciones de los materiales
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsOrientacionPosicionMaterial.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener toda las posiciones de materiales
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsOrientacionPosicionMaterial.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener posiciones del material filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.Ingresar(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva plantilla
+ </summary>
+ <param name="usuario"></param>
+ <param name="idtipoModelo"></param>
+ <param name="idClasificacion"></param>
+ <param name="idFamiliaModelo"></param>
+ <param name="idConfiguracion"></param>
+ <param name="idAdicionales"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+ <returns>Id del ultimo parametro ingresado</returns>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.Modificar(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para actualizar las plantillas registradas
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idtipoModelo"></param>
+ <param name="idClasificacion"></param>
+ <param name="idFamiliaModelo"></param>
+ <param name="idConfiguracion"></param>
+ <param name="idAdicionales"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las plantillas de los modelos registradas en el sistema
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.TraerxId(System.Int32,System.Data.DataTable)">
+ <summary>
+ Este procedimiento sirve para obtener plantillas filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.TraerxEstado(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener las plantillas de los modelos asociadas a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsPlantillasModelos.TraerxIdFamilia(System.Int32,System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener las plantillas de los modelos asociadas a una familia
+ </summary>
+ <param name="idfamilia"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTipoModelo.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar un nuevo tipo de modelo
+ </summary>
+ <param name="usuario"></param>
+ <param name="tipo"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTipoModelo.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar los tipos de modelos registrados
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="tipo"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTipoModelo.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los tipo de modelos registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTipoModelo.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener los tipos de modelos filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTipoModelo.TraerxEstado(System.Int32)">
+ <summary>
+ Trae todos los parámetros de la tabla tipos de modelo, según el estado
+ </summary>
+ <param name="estado">Valor del estado [Activo=1, Inactivo=2]</param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposCortes.Ingresar(System.String,System.String,System.String,System.Byte[],System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar un nuevo tipo de corte
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="imagen"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposCortes.Modificar(System.Int32,System.String,System.String,System.String,System.Byte[],System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar algún tipo de corte existente
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="imagen"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposCortes.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los tipos de corte registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposCortes.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener tipos de corte filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposDatos.Ingresar(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar un nuevo tipo de dato
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposDatos.Modificar(System.Int32,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar un tipo de dato registrado
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposDatos.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los tipos de datos registrados
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposDatos.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener tipos de datos filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposDatos.TraerxEstado(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener tipos de datos asociados a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.Ingresar(System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para ingresar un nuevo tipo de material
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.Modificar(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar un tipo de material registrado
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todos los tipos de material
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener tipos de material filtrados por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.TraerxEstado(System.Int32)">
+ <summary>
+Este procedimiento sirve para obtener tipos de material asociados a un estado
+ </summary>
+ <param name="estado"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsTiposMaterial.ValidarDatos(System.String,System.String@)">
+ <summary>
+ Este procedimiento sirve para validar la información ingresada
+ </summary>
+ <param name="nombre"></param>
+ <param name="mensaje"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsUbicacionMaterial.Ingresar(System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva ubicación del material en la estructura
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsUbicacionMaterial.Modificar(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar la ubicación del material
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombre"></param>
+ <param name="descripcion"></param>
+ <param name="prefijo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsUbicacionMaterial.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas la ubicaciones de material registradas
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsUbicacionMaterial.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las ubicaciones de material filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariablesPlantillas.Ingresar(System.String,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para registrar una nueva variable de plantilla
+ </summary>
+ <param name="usuario"></param>
+ <param name="idplantilla"></param>
+ <param name="idvariable"></param>
+ <param name="vmaximo"></param>
+ <param name="vminimo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVariablesPlantillas.Modificar(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Este procedimiento sirve para actualizar una variable de plantilla registrada
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="idplantilla"></param>
+ <param name="idvariable"></param>
+ <param name="vmaximo"></param>
+ <param name="vminimo"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVariablesPlantillas.TraerTodos">
+ <summary>
+ Este procedimiento sirve para obtener todas las variables de plantilla existentes en el sistema
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariablesPlantillas.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener las variables de plantilla filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariablesPlantillas.ValidarDatos(System.Collections.Generic.List{System.Int32},System.String@)">
+ <summary>
+ Este procedimiento sirve para validar la información ingresada
+ </summary>
+ <param name="idvariables"></param>
+ <param name="mensaje"></param>
+ <returns></returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.Ingresar(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para ingresar una nueva variable
+ </summary>
+ <param name="usuario"></param>
+ <param name="nombrevariable"></param>
+ <param name="descripcion"></param>
+ <param name="idtipoDato"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.Modificar(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Boolean)">
+ <summary>
+ Este procedimiento sirve para actualizar una variable registrada en el sistema
+ </summary>
+ <param name="id"></param>
+ <param name="usuario"></param>
+ <param name="nombrevariable"></param>
+ <param name="descripcion"></param>
+ <param name="idtipoDato"></param>
+ <param name="estado"></param>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.TraerTodos(System.Data.DataTable@)">
+ <summary>
+ Este procedimiento sirve para obtener todas las variables registradas en el sistema
+ </summary>
+ <returns>List(Of Variables)</returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.TraerxId(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener variables filtradas por ID
+ </summary>
+ <param name="id"></param>
+ <returns>Variables</returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.TraerxEstado(System.Int32)">
+ <summary>
+ Este procedimiento sirve para obtener variables filtradas por estado
+ </summary>
+ <param name="estado"></param>
+ <returns>List(Of Variables)</returns>
+</member>
+<member name="M:ReglasNegocio.ClsVariables.TraerxEstadoyValorDesdeBd(System.Int32,System.Boolean)">
+ <summary>
+ Funcion que devuelve los valores de la tabla de variables, verificando el estado 
+ y si sus valores vienen desde la base de datos
+ </summary>
+ <param name="estado">Estado de la variable</param>
+ <param name="valordesdebd">Valores desde la base de datos = 1, Valores implícitos en plantilla = 0</param>
+ <returns>List(Of Variables)</returns>
+</member>
+</members>
+</doc>

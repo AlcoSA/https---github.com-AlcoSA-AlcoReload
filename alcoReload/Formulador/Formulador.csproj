@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92A0A81F-7CC4-4A84-8FE9-D350B62160C6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Formulador</RootNamespace>
+    <AssemblyName>Formulador</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formulacion General\Configuraciones.cs" />
+    <Compile Include="Formulacion General\ValidacionesGenerales.cs" />
+    <Compile Include="Formulacion Grids\AnalizadorDataGridView.cs" />
+    <Compile Include="Formulacion Grids\AnalizadorTreeGridview.cs" />
+    <Compile Include="Formulacion Ingenieria\ParametroEventargs.cs" />
+    <Compile Include="Formulacion Plantillas\AnalizadorLexico.cs" />
+    <Compile Include="Formulacion General\ComponentesFormulacion.cs" />
+    <Compile Include="Formulacion General\Ejecutor.cs" />
+    <Compile Include="Formulacion Ingenieria\Descuento.cs" />
+    <Compile Include="Formulacion Ingenieria\Descuentos.cs" />
+    <Compile Include="Formularios Ayuda\FrmAyudanteFormulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Ayuda\FrmAyudanteFormulacion.Designer.cs">
+      <DependentUpon>FrmAyudanteFormulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Ayuda\FrmFormulador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Ayuda\FrmFormulador.Designer.cs">
+      <DependentUpon>FrmFormulador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Ayuda\FrmFormuladorMin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Ayuda\FrmFormuladorMin.Designer.cs">
+      <DependentUpon>FrmFormuladorMin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulacion General\Mensajes.cs" />
+    <Compile Include="Formulacion General\mEnums.cs" />
+    <Compile Include="Formulacion Ingenieria\Objeto.cs" />
+    <Compile Include="Formulacion Ingenieria\ObjetosCollection.cs" />
+    <Compile Include="Formulacion Ingenieria\Parametro.cs" />
+    <Compile Include="Formulacion Ingenieria\ParametrosCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Formulacion Ingenieria\Restriccion.cs" />
+    <Compile Include="Formulacion Ingenieria\RestriccionCollection.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Multiusos\Multiusos.csproj">
+      <Project>{79d95493-1113-42bf-b96a-fa07efebab0a}</Project>
+      <Name>Multiusos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RichTextBoxSintaxHighLight\RichTextBoxSyntaxHighLight.csproj">
+      <Project>{27b57aca-05a4-49b8-9972-3aa839305ec0}</Project>
+      <Name>RichTextBoxSyntaxHighLight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeDatagridview\TreeDatagridview.csproj">
+      <Project>{e3169945-942d-426d-9d97-cdb04a6b17de}</Project>
+      <Name>TreeDatagridview</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios Ayuda\FrmAyudanteFormulacion.resx">
+      <DependentUpon>FrmAyudanteFormulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Ayuda\FrmFormulador.resx">
+      <DependentUpon>FrmFormulador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Ayuda\FrmFormuladorMin.resx">
+      <DependentUpon>FrmFormuladorMin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

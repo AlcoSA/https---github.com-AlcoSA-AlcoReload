@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55FF1E0A-B1DC-4FED-9DB8-FE47B19A271B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlesPersonalizados</RootNamespace>
+    <AssemblyName>ControlesPersonalizados</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarradeProgresoPersonalizada.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BarradeProgresoPersonalizada.Designer.cs">
+      <DependentUpon>BarradeProgresoPersonalizada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Combobox Color\ComboboxColor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroFechas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroFechas.Designer.cs">
+      <DependentUpon>FiltroFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DibujosPlantilla.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DibujosPlantilla.Designer.cs">
+      <DependentUpon>DibujosPlantilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor_RTF\DocumentoRTF.cs" />
+    <Compile Include="Editor_RTF\EditorRTF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor_RTF\EditorRTF.Designer.cs">
+      <DependentUpon>EditorRTF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor_RTF\FrmConfTabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor_RTF\FrmConfTabla.Designer.cs">
+      <DependentUpon>FrmConfTabla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enumeradores.cs" />
+    <Compile Include="Estructurador\Acotado\Enums.cs" />
+    <Compile Include="Estructurador\Acotado\FrmCambioValorCota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructurador\Acotado\FrmCambioValorCota.Designer.cs">
+      <DependentUpon>FrmCambioValorCota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructurador\Acotado\ValorCotaCambiado_EventArgs.cs" />
+    <Compile Include="Estructurador\Basico\Cambio_Medidas_Eventargs.cs" />
+    <Compile Include="Estructurador\Basico\E_Enums.cs" />
+    <Compile Include="Estructurador\Basico\Region_Content_Changed_EventArgs.cs" />
+    <Compile Include="Estructurador\ConjuntoEstructural.cs" />
+    <Compile Include="Estructurador\Basico\EstructuradorGrafico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Estructurador\Basico\EstructuradorGrafico.Designer.cs">
+      <DependentUpon>EstructuradorGrafico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructurador\Basico\FrmDivisionesEstructura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructurador\Basico\FrmDivisionesEstructura.Designer.cs">
+      <DependentUpon>FrmDivisionesEstructura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructurador\Acotado\Estructurador_Acotado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Estructurador\Acotado\Estructurador_Acotado.Designer.cs">
+      <DependentUpon>Estructurador_Acotado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructurador\Cota_Region_Estructural.cs" />
+    <Compile Include="Estructurador\RegionEstructuras.cs" />
+    <Compile Include="Estructurador\Basico\SeleccionEstructura.cs" />
+    <Compile Include="Filtro DragDrop\CambioCoincidenciaEventArgs.cs" />
+    <Compile Include="Filtro DragDrop\FiltroDragDrop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroDragDrop.Designer.cs">
+      <DependentUpon>FiltroDragDrop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroNumerico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroNumerico.Designer.cs">
+      <DependentUpon>FiltroNumerico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroTexto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FiltroTexto.Designer.cs">
+      <DependentUpon>FiltroTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FrmColumnaFormulada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FrmColumnaFormulada.Designer.cs">
+      <DependentUpon>FrmColumnaFormulada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FrmColumnasFormuladas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtro DragDrop\FrmColumnasFormuladas.Designer.cs">
+      <DependentUpon>FrmColumnasFormuladas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridFiltrado\Elementos Grid\ColumnaFormulada.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\ColumnasFormuladas.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\Enums.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\Filtro.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\Filtros.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\FiltroValorChangedEventargs.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\Grupo.cs" />
+    <Compile Include="GridFiltrado\Elementos Grid\Grupos.cs" />
+    <Compile Include="GridFiltrado\FrmfiltroGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridFiltrado\FrmfiltroGrid.Designer.cs">
+      <DependentUpon>FrmfiltroGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridFiltrado\FrmVisibilidadColumnas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridFiltrado\FrmVisibilidadColumnas.Designer.cs">
+      <DependentUpon>FrmVisibilidadColumnas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridFiltrado\GridMultiGruposFiltros.cs" />
+    <Compile Include="Intellisens\FrmIntelisense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intellisens\FrmIntelisense.Designer.cs">
+      <DependentUpon>FrmIntelisense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intellisens\intellises.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intellisens\intellises.Designer.cs">
+      <DependentUpon>intellises.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intellisens\SeleccionCambiada_EventArgs.cs" />
+    <Compile Include="ObservacionesenPlantilla.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ObservacionesenPlantilla.Designer.cs">
+      <DependentUpon>ObservacionesenPlantilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TxtSpellChecker\spellBox.xaml.cs">
+      <DependentUpon>spellBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TxtSpellChecker\SpellTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TxtSpellChecker\SpellTextBox.Designer.cs">
+      <DependentUpon>SpellTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisorDXFBasico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisorDXFBasico.Designer.cs">
+      <DependentUpon>VisorDXFBasico.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BarradeProgresoPersonalizada.resx">
+      <DependentUpon>BarradeProgresoPersonalizada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FiltroFechas.resx">
+      <DependentUpon>FiltroFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DibujosPlantilla.resx">
+      <DependentUpon>DibujosPlantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor_RTF\EditorRTF.resx">
+      <DependentUpon>EditorRTF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor_RTF\FrmConfTabla.resx">
+      <DependentUpon>FrmConfTabla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructurador\Acotado\FrmCambioValorCota.resx">
+      <DependentUpon>FrmCambioValorCota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructurador\Basico\EstructuradorGrafico.resx">
+      <DependentUpon>EstructuradorGrafico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructurador\Basico\FrmDivisionesEstructura.resx">
+      <DependentUpon>FrmDivisionesEstructura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructurador\Acotado\Estructurador_Acotado.resx">
+      <DependentUpon>Estructurador_Acotado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FiltroDragDrop.resx">
+      <DependentUpon>FiltroDragDrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FiltroNumerico.resx">
+      <DependentUpon>FiltroNumerico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FiltroTexto.resx">
+      <DependentUpon>FiltroTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FrmColumnaFormulada.resx">
+      <DependentUpon>FrmColumnaFormulada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtro DragDrop\FrmColumnasFormuladas.resx">
+      <DependentUpon>FrmColumnasFormuladas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridFiltrado\FrmfiltroGrid.resx">
+      <DependentUpon>FrmfiltroGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridFiltrado\FrmVisibilidadColumnas.resx">
+      <DependentUpon>FrmVisibilidadColumnas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intellisens\FrmIntelisense.resx">
+      <DependentUpon>FrmIntelisense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intellisens\intellises.resx">
+      <DependentUpon>intellises.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObservacionesenPlantilla.resx">
+      <DependentUpon>ObservacionesenPlantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TxtSpellChecker\SpellTextBox.resx">
+      <DependentUpon>SpellTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisorDXFBasico.resx">
+      <DependentUpon>VisorDXFBasico.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DXF\DXF.csproj">
+      <Project>{8621E32F-7F8F-4B3F-89ED-D3E15192FD61}</Project>
+      <Name>DXF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormatosExportacion\FormatosExportacion.csproj">
+      <Project>{04e88229-a022-4c94-8f95-ec8a71ef253a}</Project>
+      <Name>FormatosExportacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulador\Formulador.csproj">
+      <Project>{92a0a81f-7cc4-4a84-8fe9-d350b62160c6}</Project>
+      <Name>Formulador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejoExcepciones\ManejoExcepciones.csproj">
+      <Project>{0613ea51-caf0-4562-810f-5f3a50bf27e1}</Project>
+      <Name>ManejoExcepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Multiusos\Multiusos.csproj">
+      <Project>{79d95493-1113-42bf-b96a-fa07efebab0a}</Project>
+      <Name>Multiusos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RichTextboxExtendido\RichTextboxExtendido.csproj">
+      <Project>{c51f6e1d-0b77-4e1e-8a32-6b753d6f356c}</Project>
+      <Name>RichTextboxExtendido</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeDatagridview\TreeDatagridview.csproj">
+      <Project>{E3169945-942D-426D-9D97-CDB04A6B17DE}</Project>
+      <Name>TreeDatagridview</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filtro 12x12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filtrar visibilidad 16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="TxtSpellChecker\spellBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar 20x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controles para Filtrado\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Total 24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Totalizar en priemra fila 24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Totalizar en ultima fila 24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

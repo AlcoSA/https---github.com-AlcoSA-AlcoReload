@@ -1,0 +1,686 @@
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe.config
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.Shared.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Intellisens.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\AxInterop.WMPLib.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Interop.WMPLib.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\stdole.dll
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Intellisens.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.pdb
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbprojResolveAssemblyReference.cache
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmContratos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListadoNotas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNotas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionPropiedadMasica.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerContratoCotiza.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTomaMedidas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCiudadesCamaraC.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoAnticipo.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAluminios.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVigencias.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEsquemaInforme.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrigenesNotas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposNotas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCategoriasExp.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmAseguradoras.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoEscritura.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmObjetos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPolizas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddItemPadre.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCotizaciones.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaMateriales.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerCotizaciones.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddAccesorio.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddOtros.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddPerfil.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddVidrio.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDuplicadoItem.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVelocidadesViento.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVersionesCargaViento.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMenuPruebas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasEjecutor.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasNuevoDatagrid.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaProceso.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaPlantillas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentosMaterial.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaPlantillas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmQuickAddDescuento.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTesteadorPlantillas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionCiudades.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoAccesorio.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmManoObraDescripcion.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComponentes.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoAluminio.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoOtrosArticulos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoVidrio.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDirectores.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactores.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactoresDescripcion.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFormasPago.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGruposUso.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmImpuestos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmInstalacion.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNiveles.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosAIU.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPresionDisenos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiempoEntrega.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCubierta.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposEdificacion.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposIdentificacion.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposObra.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVendedores.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmArticulos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEspesores.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAcabados.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInicial.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Resources.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresParametrosTecnicosArticulo.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresVariables.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCaracteristicasAdicionales.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmClasificacionModelo.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEstados.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConfiguraciones.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasMateriales.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasModelos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPlantillaModelo.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosDescripcionTecnica.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPropiedadesMasicas.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCortes.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposDatos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMaterialPara.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrientacionPosiciones.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposMaterial.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmUbicacionMaterial.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVariables.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposModelos.resources
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.GenerateResource.Cache
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.exe
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.xml
+D:\Sistemas\SofwareInhouse\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbprojResolveAssemblyReference.cache
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\Interop.LCC11.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.ResolveComReference.cache
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmConceptoEspecial.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCuentaCobroDirecta.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaCuentaCobroDirecta.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaCuentaCobro.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPagoRetenidos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmAddPerfilTemporal.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddVidrioTemporal.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmGenerarOP.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaParaAprobaciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaParaOrdenes.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListarOrdenesPedido.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCreacionVariables.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCreaTabla.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmEsquemasContratos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmspellCheck.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmContratos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmContratosPendientes.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaContratos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmReemplazoItems.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCambioEstadoContratado.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListadoNotas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNotas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNotasDesdeAnticipo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerDetalleNota.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOtroSi.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddProgramacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCalendarioSemanas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPlaneacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddPoliza.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmRegistroPolizas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionarContrato.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCuentaCobroContrato.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaCuentasCobro.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaOT.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConfiguracionImpresionCotiza.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCondicion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCostoPerfilTemporal.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCostoVidrioTemporal.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoAcabado.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoEspesor.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoItem.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerTemporales.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionPropiedadMasica.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerContratoCotiza.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCambioPrecio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmContratosOT.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaOrdenesTrabajo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmOrdenTrabajo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaOrdenTrabajo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBuscador.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBusqueda.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPedido.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCantidad_a_Duplicar.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModificacionVariables.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTomaMedidas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasColumnasGrid.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModificadorGlobalFormulas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBusquedaClientes.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCiudadesCamaraC.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoAnticipo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposFormato.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAluminios.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBuscarCostoVidrio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoTrabajosItems.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCostoVidrioIndividual.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCondicionesCotiza.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTrabajosItems.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVigencias.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmConceptos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDocumentosOT.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmEncargados.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaPrecios.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmModificarPrecio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmProveedores.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTiposCuentas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTiposOrdenesTrabajo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEsquemaInforme.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrigenesNotas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposNotas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCategoriasExp.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmAseguradoras.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoEscritura.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmObjetos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPolizas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddItemPadre.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCotizaciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaMateriales.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerCotizaciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddAccesorio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddOtros.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddPerfil.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddVidrio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDuplicadoItem.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVelocidadesViento.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVersionesCargaViento.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMenuPruebas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasEjecutor.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasNuevoDatagrid.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaProceso.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaPlantillas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentosMaterial.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaPlantillas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmQuickAddDescuento.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTesteadorPlantillas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionCiudades.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoAccesorio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmManoObraDescripcion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComponentes.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoAluminio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoOtrosArticulos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoVidrio.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDirectores.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactores.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactoresDescripcion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFormasPago.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGruposUso.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmImpuestos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmInstalacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNiveles.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosAIU.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPresionDisenos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiempoEntrega.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCubierta.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposEdificacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposIdentificacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposObra.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVendedores.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmArticulos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConectoresPlanos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEspesores.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAcabados.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInicial.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Resources.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresParametrosTecnicosArticulo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresVariables.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCaracteristicasAdicionales.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmClasificacionModelo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEstados.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConfiguraciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasMateriales.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasModelos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPlantillaModelo.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosDescripcionTecnica.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPropiedadesMasicas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCortes.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposDatos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMaterialPara.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrientacionPosiciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposMaterial.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmUbicacionMaterial.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVariables.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposModelos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCausas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDestinatarios.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmMotivosPorCausas.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmMotivosPorSecciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmSecciones.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMotivosDevolucionProduccion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Frmtercerosproduccion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDepartamentosAlco.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGruposSeguridad.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModulosAplicacion.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmUsuarios.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPermisos.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPermisosExtra.resources
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.GenerateResource.Cache
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe.config
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\FlashControlV71.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\FormatosExportacion.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextboxExtendido.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ToolStrip_Extras.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Interop.WMPLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\stdole.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\FormatosExportacion.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextboxExtendido.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\ToolStrip_Extras.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.xml
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.exe
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.pdb
+C:\Users\documentador\Documents\Visual Studio 2015\Projects\Alco.sys\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEnvioPedidoaCliente.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe.config
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\Interop.LCC11.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.ResolveComReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.exe
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\alcoReload.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\FlashControlV71.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\FormatosExportacion.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextboxExtendido.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ToolStrip_Extras.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Interop.WMPLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\stdole.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ComboBoxMultiColumna.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ControlesPersonalizados.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\DXF.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\EspecialColumns.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\FormatosExportacion.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Formulador.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Informes.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ManejoExcepciones.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ManualesyAyudas.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\MdiTabPagesBar.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Multiusos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Norma NSR.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ReglasNegocio.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Ribbon35.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextboxExtendido.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\RichTextBoxSintaxHighLight.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\ToolStrip_Extras.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\TreeDatagridview.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Validaciones.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Datos.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCuentasPorFecha.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmOrdenesVsCuentas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmConceptoEspecial.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCuentaCobroDirecta.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInformeCuentaCobro.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaCuentaCobroDirecta.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaCuentaCobro.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDevoluciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaDevoluciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaDevoluciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDetallePagados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInformePagoRetenidos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmRetenidosPagados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaPagoRetenido.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInformeOrdenTrabajo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEnvioPedidoaCliente.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPagoRetenidos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmAddPerfilTemporal.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddVidrioTemporal.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmGenerarOP.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaParaAprobaciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaParaOrdenes.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListarOrdenesPedido.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCreacionVariables.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCreaTabla.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmEsquemasContratos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmspellCheck.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmContratos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmContratosPendientes.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaContratos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmReemplazoItems.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCambioEstadoContratado.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListadoNotas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNotas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNotasDesdeAnticipo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerDetalleNota.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOtroSi.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddProgramacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCalendarioSemanas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPlaneacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddPoliza.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmRegistroPolizas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionarContrato.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCuentaCobroContrato.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaCuentasCobro.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaOT.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConfiguracionImpresionCotiza.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCondicion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCostoPerfilTemporal.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddCostoVidrioTemporal.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoAcabado.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoEspesor.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddNuevoItem.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerTemporales.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPeticionNumeroCuerposNorma.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionPropiedadMasica.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCambioPrecio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmContratosOT.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaOrdenesTrabajo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmOrdenTrabajo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmVistaOrdenTrabajo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBuscador.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBusqueda.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPedido.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCantidad_a_Duplicar.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModificacionVariables.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTomaMedidas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasColumnasGrid.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModificadorGlobalFormulas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBusquedaClientes.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCiudadesCamaraC.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoAnticipo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposFormato.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAluminios.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmBuscarCostoVidrio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoTrabajosItems.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCostoVidrioIndividual.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCondicionesCotiza.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmGruposCondicionesComerciales.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTrabajosItems.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVigencias.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmConceptos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDocumentosOT.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmEncargados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmListaPrecios.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmModificarPrecio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmProveedores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTiposCuentas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTiposOrdenesTrabajo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEsquemaInforme.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrigenesNotas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposNotas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCategoriasExp.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmAseguradoras.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmTipoEscritura.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmObjetos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPolizas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddItemPadre.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCotizaciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaMateriales.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerCotizaciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddAccesorio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddOtros.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddPerfil.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAddVidrio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDuplicadoItem.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVelocidadesViento.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVersionesCargaViento.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMenuPruebas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasEjecutor.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPruebasNuevoDatagrid.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaProceso.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargaPlantillas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentosMaterial.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaPlantillas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmQuickAddDescuento.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTesteadorPlantillas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmSeleccionCiudades.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmManoObraDescripcion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComponentes.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoAluminio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoOtrosArticulos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostoVidrio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDirectores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFactoresDescripcion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFormasPago.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGruposUso.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmImpuestos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmInstalacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmNiveles.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosAIU.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPresionDisenos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiempoEntrega.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCubierta.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposEdificacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposIdentificacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposObra.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVendedores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmArticulos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConectoresPlanos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEspesores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmAcabados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmInicial.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmControlesEnlaceConectores.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCargadorInformesDinamicos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmInformesDinamicos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresParametrosTecnicosArticulo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmValoresVariables.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosInformesDinamicos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCaracteristicasAdicionales.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmClasificacionModelo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEstados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConfiguraciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDescuentos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasMateriales.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmFamiliasModelos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPlantillaModelo.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmParametrosDescripcionTecnica.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPropiedadesMasicas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposCortes.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposDatos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMaterialPara.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOrientacionPosiciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposMaterial.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmUbicacionMaterial.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVariables.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmTiposModelos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmCausas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmDestinatarios.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmMotivosPorCausas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmMotivosPorSecciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmSecciones.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmMotivosDevolucionProduccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Frmtercerosproduccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDepartamentosAlco.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGruposSeguridad.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmModulosAplicacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmUsuarios.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPermisos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmPermisosExtra.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.vbproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.exe
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.xml
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmOpAprobadas.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.frmPeticionCadenaTexto.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmGenerarPlanos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerimagen.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmRegistroProblemasProduccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmProblemasProduccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVariosCostos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaProblemasProduccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCambioSeccion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmListaCorte.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmlistaProblemasRegistrados.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Frmmedidasperfileria.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmRTF.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmVerSolucion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDevolucionProblema.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEditorModelos.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.Frmagregarvariables.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmReemplazarPlantilla.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmConectoresDisponibles.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmEnvio.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmCostosAdicionalesObra.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComparacionCotiza.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmDuracionDuplicacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\alcoReload\obj\x86\Debug\alcoReload.FrmComplementos.resources

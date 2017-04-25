@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{2583DC96-F7BA-4E87-97D3-215B6BF8DD92}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Datos</RootNamespace>
+    <AssemblyName>Datos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Datos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Datos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsEjecutorSql.vb" />
+    <Compile Include="dsAlcoComercial.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoComercial.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoComercial.vb">
+      <DependentUpon>dsAlcoComercial.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoComercial2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoComercial2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoComercial2.vb">
+      <DependentUpon>dsAlcoComercial2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoContratos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoContratos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoContratos.vb">
+      <DependentUpon>dsAlcoContratos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoCotizaciones.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoCotizaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoCotizaciones.vb">
+      <DependentUpon>dsAlcoCotizaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoOrdenesProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoOrdenesProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoOrdenesProduccion.vb">
+      <DependentUpon>dsAlcoOrdenesProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoProblemasProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoProblemasProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlcoProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlcoProduccion.vb">
+      <DependentUpon>dsAlcoProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsbAlcoIngenieria.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsbAlcoIngenieria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsbAlcoIngenieria.vb">
+      <DependentUpon>dsbAlcoIngenieria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBUnoee.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBUnoee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBUnoee.vb">
+      <DependentUpon>dsBUnoee.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEsquemasContratos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEsquemasContratos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGeneralesAplicacion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGeneralesAplicacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGeneralesAplicacion.vb">
+      <DependentUpon>dsGeneralesAplicacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="dsAlcoComercial.xsc">
+      <DependentUpon>dsAlcoComercial.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoComercial.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoComercial.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoComercial.xss">
+      <DependentUpon>dsAlcoComercial.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoComercial2.xsc">
+      <DependentUpon>dsAlcoComercial2.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoComercial2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoComercial2.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoComercial2.xss">
+      <DependentUpon>dsAlcoComercial2.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoContratos.xsc">
+      <DependentUpon>dsAlcoContratos.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoContratos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoContratos.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlcoContratos.xss">
+      <DependentUpon>dsAlcoContratos.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoCotizaciones.xsc">
+      <DependentUpon>dsAlcoCotizaciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoCotizaciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoCotizaciones.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoCotizaciones.xss">
+      <DependentUpon>dsAlcoCotizaciones.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoOrdenesProduccion.xsc">
+      <DependentUpon>dsAlcoOrdenesProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoOrdenesProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoOrdenesProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoOrdenesProduccion.xss">
+      <DependentUpon>dsAlcoOrdenesProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoProblemasProduccion.xsc">
+      <DependentUpon>dsAlcoProblemasProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoProblemasProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoProblemasProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoProblemasProduccion.xss">
+      <DependentUpon>dsAlcoProblemasProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoProduccion.xsc">
+      <DependentUpon>dsAlcoProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlcoProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlcoProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsAlcoProduccion.xss">
+      <DependentUpon>dsAlcoProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="dsbAlcoIngenieria.xsc">
+      <DependentUpon>dsbAlcoIngenieria.xsd</DependentUpon>
+    </None>
+    <None Include="dsbAlcoIngenieria.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsbAlcoIngenieria.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsbAlcoIngenieria.xss">
+      <DependentUpon>dsbAlcoIngenieria.xsd</DependentUpon>
+    </None>
+    <None Include="dsBUnoee.xsc">
+      <DependentUpon>dsBUnoee.xsd</DependentUpon>
+    </None>
+    <None Include="dsBUnoee.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBUnoee.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsBUnoee.xss">
+      <DependentUpon>dsBUnoee.xsd</DependentUpon>
+    </None>
+    <None Include="dsEsquemasContratos.xsc">
+      <DependentUpon>dsEsquemasContratos.xsd</DependentUpon>
+    </None>
+    <None Include="dsEsquemasContratos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEsquemasContratos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsEsquemasContratos.xss">
+      <DependentUpon>dsEsquemasContratos.xsd</DependentUpon>
+    </None>
+    <None Include="dsGeneralesAplicacion.xsc">
+      <DependentUpon>dsGeneralesAplicacion.xsd</DependentUpon>
+    </None>
+    <None Include="dsGeneralesAplicacion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGeneralesAplicacion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsGeneralesAplicacion.xss">
+      <DependentUpon>dsGeneralesAplicacion.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

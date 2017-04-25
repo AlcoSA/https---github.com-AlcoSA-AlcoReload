@@ -1,0 +1,4 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Norma NSR\bin\Debug\Norma NSR.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Norma NSR\bin\Debug\Norma NSR.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Norma NSR\obj\Debug\Norma NSR.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Norma NSR\obj\Debug\Norma NSR.pdb

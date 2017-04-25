@@ -1,0 +1,5 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\FormatosExportacion\bin\Debug\FormatosExportacion.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\FormatosExportacion\bin\Debug\FormatosExportacion.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\FormatosExportacion\obj\Debug\FormatosExportacion.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\FormatosExportacion\obj\Debug\FormatosExportacion.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\FormatosExportacion\obj\Debug\FormatosExportacion.csprojResolveAssemblyReference.cache

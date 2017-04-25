@@ -1,0 +1,5 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ToolStrip_Extras\bin\Debug\ToolStrip_Extras.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ToolStrip_Extras\bin\Debug\ToolStrip_Extras.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ToolStrip_Extras\obj\Debug\ToolStrip_Extras.csprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ToolStrip_Extras\obj\Debug\ToolStrip_Extras.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\ToolStrip_Extras\obj\Debug\ToolStrip_Extras.pdb

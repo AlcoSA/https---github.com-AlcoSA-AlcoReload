@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8621E32F-7F8F-4B3F-89ED-D3E15192FD61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DXF</RootNamespace>
+    <AssemblyName>DXF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CargadorDXF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CargadorDXF.Designer.cs">
+      <DependentUpon>CargadorDXF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dibujante DXF\Angeo.cs" />
+    <Compile Include="Dibujante DXF\Anticondensacion.cs" />
+    <Compile Include="Dibujante DXF\Arco.cs" />
+    <Compile Include="Dibujante DXF\ComponenteVentana.cs" />
+    <Compile Include="Dibujante DXF\Cota.cs" />
+    <Compile Include="Dibujante DXF\DibujanteEnums.cs" />
+    <Compile Include="Dibujante DXF\Ele.cs" />
+    <Compile Include="Dibujante DXF\Especiales\Diccionarios.cs" />
+    <Compile Include="Dibujante DXF\Especiales\MargenRedimension.cs" />
+    <Compile Include="Dibujante DXF\Flecha.cs" />
+    <Compile Include="Dibujante DXF\FrmAnguloRotacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dibujante DXF\FrmAnguloRotacion.Designer.cs">
+      <DependentUpon>FrmAnguloRotacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dibujante DXF\FrmGrosorLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dibujante DXF\FrmGrosorLinea.Designer.cs">
+      <DependentUpon>FrmGrosorLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dibujante DXF\Linea.cs" />
+    <Compile Include="Dibujante DXF\Marco.cs" />
+    <Compile Include="Dibujante DXF\Rejilla.cs" />
+    <Compile Include="Dibujante DXF\Texto.cs" />
+    <Compile Include="Dibujante DXF\Ventana.cs" />
+    <Compile Include="DibujanteDXF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DibujanteDXF.Designer.cs">
+      <DependentUpon>DibujanteDXF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generador DXF\AciColor.cs" />
+    <Compile Include="Generador DXF\Blocks\Block.cs" />
+    <Compile Include="Generador DXF\Blocks\BlockEntityChangeEventArgs.cs" />
+    <Compile Include="Generador DXF\Blocks\BlockRecord.cs" />
+    <Compile Include="Generador DXF\Blocks\BlockTypeFlags.cs" />
+    <Compile Include="Generador DXF\Blocks\EndBlock.cs" />
+    <Compile Include="Generador DXF\BoundingRectangle.cs" />
+    <Compile Include="Generador DXF\Collections\ApplicationRegistries.cs" />
+    <Compile Include="Generador DXF\Collections\AttributeCollection.cs" />
+    <Compile Include="Generador DXF\Collections\AttributeDefinitionDictionary.cs" />
+    <Compile Include="Generador DXF\Collections\AttributeDefinitionDictionaryEventArgs.cs" />
+    <Compile Include="Generador DXF\Collections\BlockRecords.cs" />
+    <Compile Include="Generador DXF\Collections\DimensionStyles.cs" />
+    <Compile Include="Generador DXF\Collections\EntityCollection.cs" />
+    <Compile Include="Generador DXF\Collections\EntityCollectionEventArgs.cs" />
+    <Compile Include="Generador DXF\Collections\Groups.cs" />
+    <Compile Include="Generador DXF\Collections\ImageDefinitions.cs" />
+    <Compile Include="Generador DXF\Collections\Layers.cs" />
+    <Compile Include="Generador DXF\Collections\Layouts.cs" />
+    <Compile Include="Generador DXF\Collections\LineTypes.cs" />
+    <Compile Include="Generador DXF\Collections\MLineStyles.cs" />
+    <Compile Include="Generador DXF\Collections\ObservableCollection.cs" />
+    <Compile Include="Generador DXF\Collections\ObservableCollectionEventArgs.cs" />
+    <Compile Include="Generador DXF\Collections\ObservableDictionary.cs" />
+    <Compile Include="Generador DXF\Collections\ObservableDictionaryEventArgs.cs" />
+    <Compile Include="Generador DXF\Collections\TableObjects.cs" />
+    <Compile Include="Generador DXF\Collections\TextStyles.cs" />
+    <Compile Include="Generador DXF\Collections\UCSs.cs" />
+    <Compile Include="Generador DXF\Collections\Views.cs" />
+    <Compile Include="Generador DXF\Collections\Vports.cs" />
+    <Compile Include="Generador DXF\Collections\XDataDictionary.cs" />
+    <Compile Include="Generador DXF\DxfDocument.cs" />
+    <Compile Include="Generador DXF\DxfObject.cs" />
+    <Compile Include="Generador DXF\DxfObjectCode.cs" />
+    <Compile Include="Generador DXF\Entities\AlignedDimension.cs" />
+    <Compile Include="Generador DXF\Entities\Angular2LineDimension.cs" />
+    <Compile Include="Generador DXF\Entities\Angular3PointDimension.cs" />
+    <Compile Include="Generador DXF\Entities\Arc.cs" />
+    <Compile Include="Generador DXF\Entities\Attribute.cs" />
+    <Compile Include="Generador DXF\Entities\AttributeChangeEventArgs.cs" />
+    <Compile Include="Generador DXF\Entities\AttributeDefinition.cs" />
+    <Compile Include="Generador DXF\Entities\AttributeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\Circle.cs" />
+    <Compile Include="Generador DXF\Entities\DiametricDimension.cs" />
+    <Compile Include="Generador DXF\Entities\Dimension.cs" />
+    <Compile Include="Generador DXF\Entities\DimensionArrowhead.cs" />
+    <Compile Include="Generador DXF\Entities\DimensionBlock.cs" />
+    <Compile Include="Generador DXF\Entities\DimensionType.cs" />
+    <Compile Include="Generador DXF\Entities\DimensionTypeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\Ellipse.cs" />
+    <Compile Include="Generador DXF\Entities\EndSequence.cs" />
+    <Compile Include="Generador DXF\Entities\EntityObject.cs" />
+    <Compile Include="Generador DXF\Entities\EntityType.cs" />
+    <Compile Include="Generador DXF\Entities\Face3d.cs" />
+    <Compile Include="Generador DXF\Entities\Face3dEdgeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\Hatch.cs" />
+    <Compile Include="Generador DXF\Entities\HatchBoundaryPath.cs" />
+    <Compile Include="Generador DXF\Entities\HatchBoundaryPathTypeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\HatchFillType.cs" />
+    <Compile Include="Generador DXF\Entities\HatchGradientPattern.cs" />
+    <Compile Include="Generador DXF\Entities\HatchGradientPatternType.cs" />
+    <Compile Include="Generador DXF\Entities\HatchPattern.cs" />
+    <Compile Include="Generador DXF\Entities\HatchPatternLineDefinition.cs" />
+    <Compile Include="Generador DXF\Entities\HatchStyle.cs" />
+    <Compile Include="Generador DXF\Entities\HatchType.cs" />
+    <Compile Include="Generador DXF\Entities\Image.cs" />
+    <Compile Include="Generador DXF\Entities\ImageClippingBoundary.cs" />
+    <Compile Include="Generador DXF\Entities\ImageDisplayFlags.cs" />
+    <Compile Include="Generador DXF\Entities\Insert.cs" />
+    <Compile Include="Generador DXF\Entities\Line.cs" />
+    <Compile Include="Generador DXF\Entities\LinearDimension.cs" />
+    <Compile Include="Generador DXF\Entities\LwPolyline.cs" />
+    <Compile Include="Generador DXF\Entities\LwPolylineVertex.cs" />
+    <Compile Include="Generador DXF\Entities\Mesh.cs" />
+    <Compile Include="Generador DXF\Entities\MeshEdge.cs" />
+    <Compile Include="Generador DXF\Entities\MLine.cs" />
+    <Compile Include="Generador DXF\Entities\MLineFlags.cs" />
+    <Compile Include="Generador DXF\Entities\MLineJustification.cs" />
+    <Compile Include="Generador DXF\Entities\MLineVertex.cs" />
+    <Compile Include="Generador DXF\Entities\MText.cs" />
+    <Compile Include="Generador DXF\Entities\MTextAttachmentPoint.cs" />
+    <Compile Include="Generador DXF\Entities\MTextFormattingOptions.cs" />
+    <Compile Include="Generador DXF\Entities\MTextLineSpacingStyle.cs" />
+    <Compile Include="Generador DXF\Entities\OrdinateDimension.cs" />
+    <Compile Include="Generador DXF\Entities\OrdinateDimensionAxis.cs" />
+    <Compile Include="Generador DXF\Entities\Point.cs" />
+    <Compile Include="Generador DXF\Entities\PolyfaceMesh.cs" />
+    <Compile Include="Generador DXF\Entities\PolyfaceMeshFace.cs" />
+    <Compile Include="Generador DXF\Entities\PolyfaceMeshVertex.cs" />
+    <Compile Include="Generador DXF\Entities\Polyline.cs" />
+    <Compile Include="Generador DXF\Entities\PolylineSmoothType.cs" />
+    <Compile Include="Generador DXF\Entities\PolylineTypeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\PolylineVertex.cs" />
+    <Compile Include="Generador DXF\Entities\RadialDimension.cs" />
+    <Compile Include="Generador DXF\Entities\Ray.cs" />
+    <Compile Include="Generador DXF\Entities\Solid.cs" />
+    <Compile Include="Generador DXF\Entities\Spline.cs" />
+    <Compile Include="Generador DXF\Entities\SplineTypeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\SplineVertex.cs" />
+    <Compile Include="Generador DXF\Entities\Text.cs" />
+    <Compile Include="Generador DXF\Entities\TextAligment.cs" />
+    <Compile Include="Generador DXF\Entities\Trace.cs" />
+    <Compile Include="Generador DXF\Entities\Vertex.cs" />
+    <Compile Include="Generador DXF\Entities\VertexTypeFlags.cs" />
+    <Compile Include="Generador DXF\Entities\Viewport.cs" />
+    <Compile Include="Generador DXF\Entities\ViewportStatusFlags.cs" />
+    <Compile Include="Generador DXF\Entities\XLine.cs" />
+    <Compile Include="Generador DXF\Header\AttMode.cs" />
+    <Compile Include="Generador DXF\Header\DxfVersion.cs" />
+    <Compile Include="Generador DXF\Header\HeaderVariable.cs" />
+    <Compile Include="Generador DXF\Header\HeaderVariableCode.cs" />
+    <Compile Include="Generador DXF\Header\HeaderVariables.cs" />
+    <Compile Include="Generador DXF\Header\PointShape.cs" />
+    <Compile Include="Generador DXF\IO\BinaryCodeValueReader.cs" />
+    <Compile Include="Generador DXF\IO\BinaryCodeValueWriter.cs" />
+    <Compile Include="Generador DXF\IO\DxfException.cs" />
+    <Compile Include="Generador DXF\IO\DxfReader.cs" />
+    <Compile Include="Generador DXF\IO\DxfWriter.cs" />
+    <Compile Include="Generador DXF\IO\EncodingType.cs" />
+    <Compile Include="Generador DXF\IO\ICodeValueReader.cs" />
+    <Compile Include="Generador DXF\IO\ICodeValueWriter.cs" />
+    <Compile Include="Generador DXF\IO\TextCodeValueReader.cs" />
+    <Compile Include="Generador DXF\IO\TextCodeValueWriter.cs" />
+    <Compile Include="Generador DXF\Lineweight.cs" />
+    <Compile Include="Generador DXF\MathHelper.cs" />
+    <Compile Include="Generador DXF\Matrix3.cs" />
+    <Compile Include="Generador DXF\Objects\DictionaryCloningFlags.cs" />
+    <Compile Include="Generador DXF\Objects\DictionaryObject.cs" />
+    <Compile Include="Generador DXF\Objects\Group.cs" />
+    <Compile Include="Generador DXF\Objects\GroupEntityChangeEventArgs.cs" />
+    <Compile Include="Generador DXF\Objects\ImageDef.cs" />
+    <Compile Include="Generador DXF\Objects\ImageDefReactor.cs" />
+    <Compile Include="Generador DXF\Objects\ImageDisplayQuality.cs" />
+    <Compile Include="Generador DXF\Objects\Layout.cs" />
+    <Compile Include="Generador DXF\Objects\MLineStyle.cs" />
+    <Compile Include="Generador DXF\Objects\MLineStyleElement.cs" />
+    <Compile Include="Generador DXF\Objects\MLineStyleElementChangeEventArgs.cs" />
+    <Compile Include="Generador DXF\Objects\MLineStyleFlags.cs" />
+    <Compile Include="Generador DXF\Objects\PlotFlags.cs" />
+    <Compile Include="Generador DXF\Objects\PlotPaperUnits.cs" />
+    <Compile Include="Generador DXF\Objects\PlotRotation.cs" />
+    <Compile Include="Generador DXF\Objects\PlotSettings.cs" />
+    <Compile Include="Generador DXF\Objects\RasterVariables.cs" />
+    <Compile Include="Generador DXF\Objects\SupportedImageFormats.cs" />
+    <Compile Include="Generador DXF\StringEnum.cs" />
+    <Compile Include="Generador DXF\SubclassMarker.cs" />
+    <Compile Include="Generador DXF\Symbols.cs" />
+    <Compile Include="Generador DXF\Tables\ApplicationRegistry.cs" />
+    <Compile Include="Generador DXF\Tables\DimensionStyle.cs" />
+    <Compile Include="Generador DXF\Tables\Layer.cs" />
+    <Compile Include="Generador DXF\Tables\LayerFlags.cs" />
+    <Compile Include="Generador DXF\Tables\LineType.cs" />
+    <Compile Include="Generador DXF\Tables\TableObject.cs" />
+    <Compile Include="Generador DXF\Tables\TableObjectChangeEventArgs.cs" />
+    <Compile Include="Generador DXF\Tables\TextStyle.cs" />
+    <Compile Include="Generador DXF\Tables\UCS.cs" />
+    <Compile Include="Generador DXF\Tables\View.cs" />
+    <Compile Include="Generador DXF\Tables\ViewMode.cs" />
+    <Compile Include="Generador DXF\Tables\VPort.cs" />
+    <Compile Include="Generador DXF\Transparency.cs" />
+    <Compile Include="Generador DXF\Units\AngleUnitFormat.cs" />
+    <Compile Include="Generador DXF\Units\AngleUnitType.cs" />
+    <Compile Include="Generador DXF\Units\DrawingTime.cs" />
+    <Compile Include="Generador DXF\Units\DrawingUnits.cs" />
+    <Compile Include="Generador DXF\Units\FractionFormatType.cs" />
+    <Compile Include="Generador DXF\Units\ImageResolutionUnits.cs" />
+    <Compile Include="Generador DXF\Units\ImageUnits.cs" />
+    <Compile Include="Generador DXF\Units\LinearUnitFormat.cs" />
+    <Compile Include="Generador DXF\Units\LinearUnitType.cs" />
+    <Compile Include="Generador DXF\Units\UnitHelper.cs" />
+    <Compile Include="Generador DXF\Units\UnitStyleFormat.cs" />
+    <Compile Include="Generador DXF\Vector2.cs" />
+    <Compile Include="Generador DXF\Vector3.cs" />
+    <Compile Include="Generador DXF\XData.cs" />
+    <Compile Include="Generador DXF\XDataCode.cs" />
+    <Compile Include="Generador DXF\XDataRecord.cs" />
+    <Compile Include="Importador DXF\CADImage.cs" />
+    <Compile Include="Importador DXF\CADIterate.cs" />
+    <Compile Include="Importador DXF\DXFArc.cs" />
+    <Compile Include="Importador DXF\DXFBlock.cs" />
+    <Compile Include="Importador DXF\DXFCircle.cs" />
+    <Compile Include="Importador DXF\DXFConst.cs" />
+    <Compile Include="Importador DXF\DXFCustomVertex.cs" />
+    <Compile Include="Importador DXF\DXFEllipse.cs" />
+    <Compile Include="Importador DXF\DXFEntity.cs" />
+    <Compile Include="Importador DXF\DXFGroup.cs" />
+    <Compile Include="Importador DXF\DXFInsert.cs" />
+    <Compile Include="Importador DXF\DXFLayer.cs" />
+    <Compile Include="Importador DXF\DXFLine.cs" />
+    <Compile Include="Importador DXF\DXFLwPolyline.cs" />
+    <Compile Include="Importador DXF\DXFMatrix.cs" />
+    <Compile Include="Importador DXF\DXFMText.cs" />
+    <Compile Include="Importador DXF\DXFPolyLine.cs" />
+    <Compile Include="Importador DXF\DXFSection.cs" />
+    <Compile Include="Importador DXF\DXFSPLine.cs" />
+    <Compile Include="Importador DXF\DXFTable.cs" />
+    <Compile Include="Importador DXF\DXFText.cs" />
+    <Compile Include="Importador DXF\DXFVisibleEntity.cs" />
+    <Compile Include="Importador DXF\ImportadorEnums.cs" />
+    <Compile Include="Importador DXF\FRect.cs" />
+    <Compile Include="Importador DXF\DXFVertex.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CargadorDXF.resx">
+      <DependentUpon>CargadorDXF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dibujante DXF\FrmAnguloRotacion.resx">
+      <DependentUpon>FrmAnguloRotacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dibujante DXF\FrmGrosorLinea.resx">
+      <DependentUpon>FrmGrosorLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DibujanteDXF.resx">
+      <DependentUpon>DibujanteDXF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Formulador\Formulador.csproj">
+      <Project>{92a0a81f-7cc4-4a84-8fe9-d350b62160c6}</Project>
+      <Name>Formulador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejoExcepciones\ManejoExcepciones.csproj">
+      <Project>{0613ea51-caf0-4562-810f-5f3a50bf27e1}</Project>
+      <Name>ManejoExcepciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Mano_cerrada_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mano_abierta24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mano_abierta_20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

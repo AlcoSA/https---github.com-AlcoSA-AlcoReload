@@ -1,0 +1,7 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\bin\Debug\Ribbon35.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\bin\Debug\Ribbon35.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\obj\Debug\Ribbon35.csprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\obj\Debug\System.Windows.Forms.RibbonForm.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\obj\Debug\Ribbon35.csproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\obj\Debug\Ribbon35.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Ribbon35\obj\Debug\Ribbon35.pdb

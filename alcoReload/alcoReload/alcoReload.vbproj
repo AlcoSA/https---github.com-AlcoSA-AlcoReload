@@ -1,0 +1,2222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5ADE982B-94B2-4E5E-B891-478BDF5AA23A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>alcoReload.My.MyApplication</StartupObject>
+    <RootNamespace>alcoReload</RootNamespace>
+    <AssemblyName>alcoReload</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>alcoReload.xml</DocumentationFile>
+    <NoWarn>41999,42016,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>alcoReload.xml</DocumentationFile>
+    <NoWarn>41999,42016,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="itextsharp">
+      <HintPath>..\..\ALCOING\alcoReload\alcoReload\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios comercial\FrmEnvio.Designer.vb">
+      <DependentUpon>FrmEnvio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\FrmEnvio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Consultas y reportes\frmCuentasPorFecha.Designer.vb">
+      <DependentUpon>frmCuentasPorFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Consultas y reportes\frmCuentasPorFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Consultas y reportes\frmOrdenesVsCuentas.Designer.vb">
+      <DependentUpon>frmOrdenesVsCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Consultas y reportes\frmOrdenesVsCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmConceptoEspecial.Designer.vb">
+      <DependentUpon>frmConceptoEspecial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmConceptoEspecial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroDirecta.Designer.vb">
+      <DependentUpon>frmCuentaCobroDirecta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroDirecta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmInformeCuentaCobro.Designer.vb">
+      <DependentUpon>frmInformeCuentaCobro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmInformeCuentaCobro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroDirecta.Designer.vb">
+      <DependentUpon>frmVistaCuentaCobroDirecta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroDirecta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroOT.Designer.vb">
+      <DependentUpon>frmVistaCuentaCobroOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmDevoluciones.Designer.vb">
+      <DependentUpon>frmDevoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmDevoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmListaDevoluciones.Designer.vb">
+      <DependentUpon>frmListaDevoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmListaDevoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmVistaDevoluciones.Designer.vb">
+      <DependentUpon>frmVistaDevoluciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Devoluciones\frmVistaDevoluciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmDetallePagados.Designer.vb">
+      <DependentUpon>frmDetallePagados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmDetallePagados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmInformePagoRetenidos.Designer.vb">
+      <DependentUpon>frmInformePagoRetenidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmInformePagoRetenidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmRetenidosPagados.Designer.vb">
+      <DependentUpon>frmRetenidosPagados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmRetenidosPagados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmVistaPagoRetenido.Designer.vb">
+      <DependentUpon>frmVistaPagoRetenido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmVistaPagoRetenido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmInformeOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmInformeOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmInformeOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmEnvioPedidoaCliente.Designer.vb">
+      <DependentUpon>FrmEnvioPedidoaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmEnvioPedidoaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmPagoRetenidos.Designer.vb">
+      <DependentUpon>frmPagoRetenidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Pago retenidos\frmPagoRetenidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmComparacionCotiza.Designer.vb">
+      <DependentUpon>FrmComparacionCotiza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmComparacionCotiza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\frmAddPerfilTemporal.Designer.vb">
+      <DependentUpon>frmAddPerfilTemporal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\frmAddPerfilTemporal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddVidrioTemporal.Designer.vb">
+      <DependentUpon>FrmAddVidrioTemporal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddVidrioTemporal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\frmGenerarOP.Designer.vb">
+      <DependentUpon>frmGenerarOP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\frmGenerarOP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaAprobaciones.Designer.vb">
+      <DependentUpon>FrmListaParaAprobaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaAprobaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaOrdenes.Designer.vb">
+      <DependentUpon>FrmListaParaOrdenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaOrdenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListarOrdenesPedido.Designer.vb">
+      <DependentUpon>FrmListarOrdenesPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListarOrdenesPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmCreacionVariables.Designer.vb">
+      <DependentUpon>FrmCreacionVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmCreacionVariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\frmCreaTabla.Designer.vb">
+      <DependentUpon>frmCreaTabla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\frmCreaTabla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\frmEsquemasContratos.Designer.vb">
+      <DependentUpon>frmEsquemasContratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\frmEsquemasContratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmspellCheck.Designer.vb">
+      <DependentUpon>FrmspellCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmspellCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\frmContratos.Designer.vb">
+      <DependentUpon>frmContratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\frmContratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmContratosPendientes.Designer.vb">
+      <DependentUpon>FrmContratosPendientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmContratosPendientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmListaContratos.Designer.vb">
+      <DependentUpon>FrmListaContratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmListaContratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmReemplazoItems.Designer.vb">
+      <DependentUpon>FrmReemplazoItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\FrmReemplazoItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Generales\FrmCambioEstadoContratado.Designer.vb">
+      <DependentUpon>FrmCambioEstadoContratado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Generales\FrmCambioEstadoContratado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmListadoNotas.Designer.vb">
+      <DependentUpon>FrmListadoNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmListadoNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmNotas.Designer.vb">
+      <DependentUpon>FrmNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmNotasDesdeAnticipo.Designer.vb">
+      <DependentUpon>FrmNotasDesdeAnticipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmNotasDesdeAnticipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmVerDetalleNota.Designer.vb">
+      <DependentUpon>FrmVerDetalleNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Notas Cobros\FrmVerDetalleNota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Otro Si\FrmOtroSi.Designer.vb">
+      <DependentUpon>FrmOtroSi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Otro Si\FrmOtroSi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmAddProgramacion.Designer.vb">
+      <DependentUpon>FrmAddProgramacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmAddProgramacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmCalendarioSemanas.Designer.vb">
+      <DependentUpon>FrmCalendarioSemanas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmCalendarioSemanas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmPlaneacion.Designer.vb">
+      <DependentUpon>FrmPlaneacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Planeacion\FrmPlaneacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmAddPoliza.Designer.vb">
+      <DependentUpon>FrmAddPoliza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmAddPoliza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmHistorialPolizas.Designer.vb">
+      <DependentUpon>FrmHistorialPolizas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmHistorialPolizas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmRegistroPolizas.Designer.vb">
+      <DependentUpon>FrmRegistroPolizas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Polizas\FrmRegistroPolizas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Generales\FrmSeleccionarContrato.Designer.vb">
+      <DependentUpon>FrmSeleccionarContrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Contratos\Generales\FrmSeleccionarContrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroOT.Designer.vb">
+      <DependentUpon>frmCuentaCobroOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaCuentasCobro.Designer.vb">
+      <DependentUpon>frmListaCuentasCobro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaCuentasCobro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaOT.Designer.vb">
+      <DependentUpon>frmListaOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\frmCuentaCobroOT.Designer.vb">
+      <DependentUpon>frmCuentaCobroOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\frmCuentaCobroOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Configuraciones\FrmConfiguracionImpresionCotiza.Designer.vb">
+      <DependentUpon>FrmConfiguracionImpresionCotiza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Configuraciones\FrmConfiguracionImpresionCotiza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmAddCondicion.Designer.vb">
+      <DependentUpon>FrmAddCondicion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmAddCondicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoPerfilTemporal.Designer.vb">
+      <DependentUpon>FrmAddCostoPerfilTemporal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoPerfilTemporal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoVidrioTemporal.Designer.vb">
+      <DependentUpon>FrmAddCostoVidrioTemporal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoVidrioTemporal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoAcabado.Designer.vb">
+      <DependentUpon>FrmAddNuevoAcabado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoAcabado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoEspesor.Designer.vb">
+      <DependentUpon>FrmAddNuevoEspesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoEspesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoItem.Designer.vb">
+      <DependentUpon>FrmAddNuevoItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmVerTemporales.Designer.vb">
+      <DependentUpon>FrmVerTemporales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmVerTemporales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmPeticionNumeroCuerposNorma.Designer.vb">
+      <DependentUpon>FrmPeticionNumeroCuerposNorma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmPeticionNumeroCuerposNorma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmSeleccionPropiedadMasica.Designer.vb">
+      <DependentUpon>FrmSeleccionPropiedadMasica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmSeleccionPropiedadMasica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\FrmCambioPrecio.Designer.vb">
+      <DependentUpon>FrmCambioPrecio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\FrmCambioPrecio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmContratosOT.Designer.vb">
+      <DependentUpon>frmContratosOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmContratosOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmListaOrdenesTrabajo.Designer.vb">
+      <DependentUpon>frmListaOrdenesTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmListaOrdenesTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmVistaOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmVistaOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Instalacion\Ordenes trabajo\frmVistaOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBuscador.Designer.vb">
+      <DependentUpon>FrmBuscador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBuscador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBusquedaClientes.Designer.vb">
+      <DependentUpon>FrmBusquedaClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBusquedaClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\frmPedido.Designer.vb">
+      <DependentUpon>frmPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\frmPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmlistaProblemasRegistrados.Designer.vb">
+      <DependentUpon>FrmlistaProblemasRegistrados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmlistaProblemasRegistrados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmVerSolucion.Designer.vb">
+      <DependentUpon>FrmVerSolucion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmVerSolucion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmCantidad_a_Duplicar.Designer.vb">
+      <DependentUpon>FrmCantidad_a_Duplicar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmCantidad_a_Duplicar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmModificacionVariables.Designer.vb">
+      <DependentUpon>FrmModificacionVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmModificacionVariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmTomaMedidas.Designer.vb">
+      <DependentUpon>FrmTomaMedidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Toma Medidas\FrmTomaMedidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\Frmagregarvariables.Designer.vb">
+      <DependentUpon>Frmagregarvariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\Frmagregarvariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\FrmReemplazarPlantilla.Designer.vb">
+      <DependentUpon>FrmReemplazarPlantilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\FrmReemplazarPlantilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmComplementos.Designer.vb">
+      <DependentUpon>FrmComplementos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmComplementos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmEditorModelos.Designer.vb">
+      <DependentUpon>FrmEditorModelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmEditorModelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmGenerarPlanos.Designer.vb">
+      <DependentUpon>FrmGenerarPlanos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmGenerarPlanos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmListaCorte.Designer.vb">
+      <DependentUpon>FrmListaCorte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmListaCorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmOpAprobadas.Designer.vb">
+      <DependentUpon>FrmOpAprobadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmOpAprobadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmRegistroProblemasProduccion.Designer.vb">
+      <DependentUpon>FrmRegistroProblemasProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Registro problemas produccion\FrmRegistroProblemasProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmCambioSeccion.Designer.vb">
+      <DependentUpon>FrmCambioSeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmCambioSeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmListaProblemasProduccion.Designer.vb">
+      <DependentUpon>FrmListaProblemasProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmListaProblemasProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmDevolucionProblema.Designer.vb">
+      <DependentUpon>FrmDevolucionProblema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmDevolucionProblema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmProblemasProduccion.Designer.vb">
+      <DependentUpon>FrmProblemasProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Produccion\Problemas produccion\FrmProblemasProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasColumnasGrid.Designer.vb">
+      <DependentUpon>FrmPruebasColumnasGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasColumnasGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmRTF.Designer.vb">
+      <DependentUpon>FrmRTF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmRTF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Utiles\CargaDibujos.vb" />
+    <Compile Include="Formularios Utiles\CargasPlantilla.vb" />
+    <Compile Include="Formularios Utiles\CrearArchivoPlano.vb" />
+    <Compile Include="Formularios Utiles\frmPeticionCadenaTexto.Designer.vb">
+      <DependentUpon>frmPeticionCadenaTexto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Utiles\frmPeticionCadenaTexto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Utiles\FrmVerimagen.Designer.vb">
+      <DependentUpon>FrmVerimagen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Utiles\FrmVerimagen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmModificadorGlobalFormulas.Designer.vb">
+      <DependentUpon>FrmModificadorGlobalFormulas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmModificadorGlobalFormulas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmBusquedaClientes.Designer.vb">
+      <DependentUpon>FrmBusquedaClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmBusquedaClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmBusquedaSucursales.Designer.vb">
+      <DependentUpon>FrmBusquedaSucursales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmBusquedaSucursales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmCiudadesCamaraC.Designer.vb">
+      <DependentUpon>frmCiudadesCamaraC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmCiudadesCamaraC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmTipoAnticipo.Designer.vb">
+      <DependentUpon>frmTipoAnticipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmTipoAnticipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\Parametros Formatos\FrmTiposFormato.Designer.vb">
+      <DependentUpon>FrmTiposFormato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\Parametros Formatos\FrmTiposFormato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmAluminios.Designer.vb">
+      <DependentUpon>FrmAluminios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmAluminios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmBuscarCostoVidrio.Designer.vb">
+      <DependentUpon>FrmBuscarCostoVidrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmBuscarCostoVidrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoTrabajosItems.Designer.vb">
+      <DependentUpon>FrmCostoTrabajosItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoTrabajosItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoVidrioIndividual.Designer.vb">
+      <DependentUpon>FrmCostoVidrioIndividual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoVidrioIndividual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmVariosCostos.Designer.vb">
+      <DependentUpon>FrmVariosCostos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmVariosCostos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmCondicionesCotiza.Designer.vb">
+      <DependentUpon>FrmCondicionesCotiza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmCondicionesCotiza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostosAdicionalesObra.Designer.vb">
+      <DependentUpon>FrmCostosAdicionalesObra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostosAdicionalesObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmDuracionDuplicacion.Designer.vb">
+      <DependentUpon>FrmDuracionDuplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmDuracionDuplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\frmGruposCondicionesComerciales.Designer.vb">
+      <DependentUpon>frmGruposCondicionesComerciales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\frmGruposCondicionesComerciales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmConectoresDisponibles.Designer.vb">
+      <DependentUpon>FrmConectoresDisponibles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmConectoresDisponibles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmConectoresPlanos.Designer.vb">
+      <DependentUpon>FrmConectoresPlanos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmConectoresPlanos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmTrabajosItems.Designer.vb">
+      <DependentUpon>FrmTrabajosItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmTrabajosItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmVigencias.Designer.vb">
+      <DependentUpon>FrmVigencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmVigencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmConceptos.Designer.vb">
+      <DependentUpon>frmConceptos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmConceptos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmDocumentosOT.Designer.vb">
+      <DependentUpon>frmDocumentosOT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmDocumentosOT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmEncargados.Designer.vb">
+      <DependentUpon>frmEncargados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmEncargados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmListaPrecios.Designer.vb">
+      <DependentUpon>frmListaPrecios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmListaPrecios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmModificarPrecio.Designer.vb">
+      <DependentUpon>frmModificarPrecio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmModificarPrecio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmProveedores.Designer.vb">
+      <DependentUpon>frmProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmTiposCuentas.Designer.vb">
+      <DependentUpon>frmTiposCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmTiposCuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmTiposOrdenesTrabajo.Designer.vb">
+      <DependentUpon>frmTiposOrdenesTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Instalacion\frmTiposOrdenesTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmEsquemaInforme.Designer.vb">
+      <DependentUpon>FrmEsquemaInforme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmEsquemaInforme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmOrigenesNotas.Designer.vb">
+      <DependentUpon>FrmOrigenesNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmOrigenesNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmTiposNotas.Designer.vb">
+      <DependentUpon>FrmTiposNotas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Notas\FrmTiposNotas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmCategoriasExp.Designer.vb">
+      <DependentUpon>FrmCategoriasExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmCategoriasExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmAseguradoras.Designer.vb">
+      <DependentUpon>frmAseguradoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmAseguradoras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmTipoEscritura.Designer.vb">
+      <DependentUpon>frmTipoEscritura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmTipoEscritura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmObjetos.Designer.vb">
+      <DependentUpon>frmObjetos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmObjetos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmPolizas.Designer.vb">
+      <DependentUpon>frmPolizas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Contratos\frmPolizas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmAddItemPadre.Designer.vb">
+      <DependentUpon>FrmAddItemPadre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmAddItemPadre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmCotizaciones.Designer.vb">
+      <DependentUpon>FrmCotizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmCotizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmListaMateriales.Designer.vb">
+      <DependentUpon>FrmListaMateriales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmListaMateriales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\frmDuplicadoItem.Designer.vb">
+      <DependentUpon>frmDuplicadoItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\frmDuplicadoItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmVerCotizaciones.Designer.vb">
+      <DependentUpon>FrmVerCotizaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\FrmVerCotizaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddAccesorio.Designer.vb">
+      <DependentUpon>FrmAddAccesorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddAccesorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddOtros.Designer.vb">
+      <DependentUpon>FrmAddOtros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddOtros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddPerfil.Designer.vb">
+      <DependentUpon>FrmAddPerfil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddPerfil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddVidrio.Designer.vb">
+      <DependentUpon>FrmAddVidrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddVidrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Norma\FrmVelocidadesViento.Designer.vb">
+      <DependentUpon>FrmVelocidadesViento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Norma\FrmVelocidadesViento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Norma\FrmVersionesCargaViento.Designer.vb">
+      <DependentUpon>FrmVersionesCargaViento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Norma\FrmVersionesCargaViento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmMenuPruebas.Designer.vb">
+      <DependentUpon>FrmMenuPruebas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmMenuPruebas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasEjecutor.Designer.vb">
+      <DependentUpon>FrmPruebasEjecutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasEjecutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasNuevoDatagrid.Designer.vb">
+      <DependentUpon>FrmPruebasNuevoDatagrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Pruebas\FrmPruebasNuevoDatagrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios Utiles\Extras\FrmCargaProceso.Designer.vb">
+      <DependentUpon>FrmCargaProceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios Utiles\Extras\FrmCargaProceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmCargaPlantillas.Designer.vb">
+      <DependentUpon>FrmCargaPlantillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmCargaPlantillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmDescuentosMaterial.Designer.vb">
+      <DependentUpon>FrmDescuentosMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmDescuentosMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmListaPlantillas.Designer.vb">
+      <DependentUpon>FrmListaPlantillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmListaPlantillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmQuickAddDescuento.Designer.vb">
+      <DependentUpon>FrmQuickAddDescuento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmQuickAddDescuento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmTesteadorPlantillas.Designer.vb">
+      <DependentUpon>FrmTesteadorPlantillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmTesteadorPlantillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmSeleccionCiudades.Designer.vb">
+      <DependentUpon>FrmSeleccionCiudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmSeleccionCiudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmManoObraDescripcion.Designer.vb">
+      <DependentUpon>FrmManoObraDescripcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmManoObraDescripcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmComponentes.Designer.vb">
+      <DependentUpon>FrmComponentes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmComponentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoAluminio.Designer.vb">
+      <DependentUpon>FrmCostoAluminio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoAluminio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoOtrosArticulos.Designer.vb">
+      <DependentUpon>FrmCostoOtrosArticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoOtrosArticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoVidrio.Designer.vb">
+      <DependentUpon>FrmCostoVidrio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmCostoVidrio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmDirectores.designer.vb">
+      <DependentUpon>FrmDirectores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmDirectores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmFactores.Designer.vb">
+      <DependentUpon>FrmFactores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmFactores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmFactoresDescripcion.Designer.vb">
+      <DependentUpon>FrmFactoresDescripcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Formularios emergentes\FrmFactoresDescripcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmFormasPago.Designer.vb">
+      <DependentUpon>FrmFormasPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmFormasPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmGruposUso.Designer.vb">
+      <DependentUpon>FrmGruposUso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmGruposUso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmImpuestos.Designer.vb">
+      <DependentUpon>FrmImpuestos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmImpuestos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmInstalacion.Designer.vb">
+      <DependentUpon>FrmInstalacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmInstalacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmNiveles.Designer.vb">
+      <DependentUpon>FrmNiveles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Costos\FrmNiveles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmParametrosAIU.Designer.vb">
+      <DependentUpon>FrmParametrosAIU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmParametrosAIU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmPresionModelos.Designer.vb">
+      <DependentUpon>FrmPresionModelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmPresionModelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiempoEntrega.Designer.vb">
+      <DependentUpon>FrmTiempoEntrega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiempoEntrega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmTiposEdificacion.Designer.vb">
+      <DependentUpon>FrmTiposEdificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmTiposEdificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposIdentificacion.Designer.vb">
+      <DependentUpon>FrmTiposIdentificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposIdentificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposObra.Designer.vb">
+      <DependentUpon>FrmTiposObra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposObra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmVendedores.Designer.vb">
+      <DependentUpon>FrmVendedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros Cotizaciones\FrmVendedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmTiposCubierta.Designer.vb">
+      <DependentUpon>FrmTiposCubierta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmTiposCubierta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmArticulos.designer.vb">
+      <DependentUpon>FrmArticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmArticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmEspesores.Designer.vb">
+      <DependentUpon>FrmEspesores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmEspesores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmAcabados.Designer.vb">
+      <DependentUpon>FrmAcabados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmAcabados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicial.Designer.vb">
+      <DependentUpon>frmInicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmControlesEnlaceConectores.Designer.vb">
+      <DependentUpon>FrmControlesEnlaceConectores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Conectores\FrmControlesEnlaceConectores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmCargadorInformesDinamicos.Designer.vb">
+      <DependentUpon>FrmCargadorInformesDinamicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmCargadorInformesDinamicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmInformesDinamicos.Designer.vb">
+      <DependentUpon>FrmInformesDinamicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmInformesDinamicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmValoresParametrosTecnicosArticulo.Designer.vb">
+      <DependentUpon>FrmValoresParametrosTecnicosArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmValoresParametrosTecnicosArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmValoresVariables.Designer.vb">
+      <DependentUpon>FrmValoresVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmValoresVariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmParametrosInformesDinamicos.Designer.vb">
+      <DependentUpon>FrmParametrosInformesDinamicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\Informes Dinamicos\FrmParametrosInformesDinamicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmCaracteristicasAdicionales.Designer.vb">
+      <DependentUpon>FrmCaracteristicasAdicionales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmCaracteristicasAdicionales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmClasificacionModelo.Designer.vb">
+      <DependentUpon>FrmClasificacionModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmClasificacionModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmEstados.Designer.vb">
+      <DependentUpon>FrmEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmConfiguraciones.Designer.vb">
+      <DependentUpon>FrmConfiguraciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmConfiguraciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmDescuentos.Designer.vb">
+      <DependentUpon>FrmDescuentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmDescuentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmFamiliasMateriales.Designer.vb">
+      <DependentUpon>FrmFamiliasMateriales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmFamiliasMateriales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmFamiliasModelos.Designer.vb">
+      <DependentUpon>FrmFamiliasModelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmFamiliasModelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmPlantillaModelo.Designer.vb">
+      <DependentUpon>FrmPlantillaModelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ingenieria\Diseño Plantillas\FrmPlantillaModelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\Frmmedidasperfileria.Designer.vb">
+      <DependentUpon>Frmmedidasperfileria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\Frmmedidasperfileria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmParametrosDescripcionTecnica.Designer.vb">
+      <DependentUpon>FrmParametrosDescripcionTecnica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmParametrosDescripcionTecnica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmPropiedadesMasicas.Designer.vb">
+      <DependentUpon>FrmPropiedadesMasicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Comercial\Parametros NSR10\FrmPropiedadesMasicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposCortes.Designer.vb">
+      <DependentUpon>FrmTiposCortes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposCortes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposDatos.Designer.vb">
+      <DependentUpon>FrmTiposDatos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposDatos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmMaterialPara.Designer.vb">
+      <DependentUpon>FrmMaterialPara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmMaterialPara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmOrientacionPosiciones.Designer.vb">
+      <DependentUpon>FrmOrientacionPosiciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmOrientacionPosiciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposMaterial.Designer.vb">
+      <DependentUpon>FrmTiposMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmUbicacionMaterial.Designer.vb">
+      <DependentUpon>FrmUbicacionMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmUbicacionMaterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmVariables.Designer.vb">
+      <DependentUpon>FrmVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Generales\FrmVariables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposModelos.Designer.vb">
+      <DependentUpon>FrmTiposModelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parametros Manufactura\FrmTiposModelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmCausas.Designer.vb">
+      <DependentUpon>frmCausas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmCausas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmDestinatarios.Designer.vb">
+      <DependentUpon>frmDestinatarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmDestinatarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorCausas.Designer.vb">
+      <DependentUpon>frmMotivosPorCausas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorCausas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorSecciones.Designer.vb">
+      <DependentUpon>frmMotivosPorSecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorSecciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmSecciones.Designer.vb">
+      <DependentUpon>frmSecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmSecciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\FrmMotivosDevolucionProduccion.Designer.vb">
+      <DependentUpon>FrmMotivosDevolucionProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\FrmMotivosDevolucionProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Frmtercerosproduccion.Designer.vb">
+      <DependentUpon>Frmtercerosproduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Parametros Produccion\Frmtercerosproduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmDepartamentosAlco.Designer.vb">
+      <DependentUpon>FrmDepartamentosAlco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmDepartamentosAlco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmGruposSeguridad.Designer.vb">
+      <DependentUpon>FrmGruposSeguridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmGruposSeguridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmModulosAplicacion.Designer.vb">
+      <DependentUpon>FrmModulosAplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmModulosAplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmUsuarios.Designer.vb">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\FrmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Seguridad\FrmPermisos.Designer.vb">
+      <DependentUpon>FrmPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Seguridad\FrmPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Seguridad\FrmPermisosExtra.Designer.vb">
+      <DependentUpon>FrmPermisosExtra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Seguridad\FrmPermisosExtra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad Y Bloqueos\Seguridad\Permiso.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios comercial\FrmEnvio.resx">
+      <DependentUpon>FrmEnvio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Consultas y reportes\frmCuentasPorFecha.resx">
+      <DependentUpon>frmCuentasPorFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Consultas y reportes\frmOrdenesVsCuentas.resx">
+      <DependentUpon>frmOrdenesVsCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmConceptoEspecial.resx">
+      <DependentUpon>frmConceptoEspecial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroDirecta.resx">
+      <DependentUpon>frmCuentaCobroDirecta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmInformeCuentaCobro.resx">
+      <DependentUpon>frmInformeCuentaCobro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroDirecta.resx">
+      <DependentUpon>frmVistaCuentaCobroDirecta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmVistaCuentaCobroOT.resx">
+      <DependentUpon>frmVistaCuentaCobroOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Devoluciones\frmDevoluciones.resx">
+      <DependentUpon>frmDevoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Devoluciones\frmListaDevoluciones.resx">
+      <DependentUpon>frmListaDevoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Devoluciones\frmVistaDevoluciones.resx">
+      <DependentUpon>frmVistaDevoluciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Pago retenidos\frmDetallePagados.resx">
+      <DependentUpon>frmDetallePagados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Pago retenidos\frmInformePagoRetenidos.resx">
+      <DependentUpon>frmInformePagoRetenidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Pago retenidos\frmRetenidosPagados.resx">
+      <DependentUpon>frmRetenidosPagados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Pago retenidos\frmVistaPagoRetenido.resx">
+      <DependentUpon>frmVistaPagoRetenido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\frmInformeOrdenTrabajo.resx">
+      <DependentUpon>frmInformeOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmEnvioPedidoaCliente.resx">
+      <DependentUpon>FrmEnvioPedidoaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Pago retenidos\frmPagoRetenidos.resx">
+      <DependentUpon>frmPagoRetenidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmComparacionCotiza.resx">
+      <DependentUpon>FrmComparacionCotiza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\frmAddPerfilTemporal.resx">
+      <DependentUpon>frmAddPerfilTemporal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddVidrioTemporal.resx">
+      <DependentUpon>FrmAddVidrioTemporal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\frmGenerarOP.resx">
+      <DependentUpon>frmGenerarOP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaAprobaciones.resx">
+      <DependentUpon>FrmListaParaAprobaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListaParaOrdenes.resx">
+      <DependentUpon>FrmListaParaOrdenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Formularios Orden Pedido\Orden de Pedido\FrmListarOrdenesPedido.resx">
+      <DependentUpon>FrmListarOrdenesPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmCreacionVariables.resx">
+      <DependentUpon>FrmCreacionVariables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\EsquemasDocumentos\frmCreaTabla.resx">
+      <DependentUpon>frmCreaTabla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\EsquemasDocumentos\frmEsquemasContratos.resx">
+      <DependentUpon>frmEsquemasContratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\EsquemasDocumentos\FrmspellCheck.resx">
+      <DependentUpon>FrmspellCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\frmContratos.resx">
+      <DependentUpon>frmContratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\FrmContratosPendientes.resx">
+      <DependentUpon>FrmContratosPendientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\FrmListaContratos.resx">
+      <DependentUpon>FrmListaContratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\FrmReemplazoItems.resx">
+      <DependentUpon>FrmReemplazoItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Generales\FrmCambioEstadoContratado.resx">
+      <DependentUpon>FrmCambioEstadoContratado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Notas Cobros\FrmListadoNotas.resx">
+      <DependentUpon>FrmListadoNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Notas Cobros\FrmNotas.resx">
+      <DependentUpon>FrmNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Notas Cobros\FrmNotasDesdeAnticipo.resx">
+      <DependentUpon>FrmNotasDesdeAnticipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Notas Cobros\FrmVerDetalleNota.resx">
+      <DependentUpon>FrmVerDetalleNota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Otro Si\FrmOtroSi.resx">
+      <DependentUpon>FrmOtroSi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Planeacion\FrmAddProgramacion.resx">
+      <DependentUpon>FrmAddProgramacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Planeacion\FrmCalendarioSemanas.resx">
+      <DependentUpon>FrmCalendarioSemanas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Planeacion\FrmPlaneacion.resx">
+      <DependentUpon>FrmPlaneacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Polizas\FrmAddPoliza.resx">
+      <DependentUpon>FrmAddPoliza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Polizas\FrmRegistroPolizas.resx">
+      <DependentUpon>FrmRegistroPolizas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Contratos\Generales\FrmSeleccionarContrato.resx">
+      <DependentUpon>FrmSeleccionarContrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmCuentaCobroOT.resx">
+      <DependentUpon>frmCuentaCobroOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaCuentasCobro.resx">
+      <DependentUpon>frmListaCuentasCobro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Cuentas cobro\frmListaOT.resx">
+      <DependentUpon>frmListaOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Configuraciones\FrmConfiguracionImpresionCotiza.resx">
+      <DependentUpon>FrmConfiguracionImpresionCotiza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmAddCondicion.resx">
+      <DependentUpon>FrmAddCondicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoPerfilTemporal.resx">
+      <DependentUpon>FrmAddCostoPerfilTemporal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddCostoVidrioTemporal.resx">
+      <DependentUpon>FrmAddCostoVidrioTemporal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoAcabado.resx">
+      <DependentUpon>FrmAddNuevoAcabado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoEspesor.resx">
+      <DependentUpon>FrmAddNuevoEspesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmAddNuevoItem.resx">
+      <DependentUpon>FrmAddNuevoItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\Nuevos Items\FrmVerTemporales.resx">
+      <DependentUpon>FrmVerTemporales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmPeticionNumeroCuerposNorma.resx">
+      <DependentUpon>FrmPeticionNumeroCuerposNorma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Norma NSR\FrmSeleccionPropiedadMasica.resx">
+      <DependentUpon>FrmSeleccionPropiedadMasica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\FrmCambioPrecio.resx">
+      <DependentUpon>FrmCambioPrecio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\frmContratosOT.resx">
+      <DependentUpon>frmContratosOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\frmListaOrdenesTrabajo.resx">
+      <DependentUpon>frmListaOrdenesTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\frmOrdenTrabajo.resx">
+      <DependentUpon>frmOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Instalacion\Ordenes trabajo\frmVistaOrdenTrabajo.resx">
+      <DependentUpon>frmVistaOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBuscador.resx">
+      <DependentUpon>FrmBuscador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\FrmBusquedaClientes.resx">
+      <DependentUpon>FrmBusquedaClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Pedidos y reposiciones\Reposiciones\frmPedido.resx">
+      <DependentUpon>frmPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Registro problemas produccion\FrmlistaProblemasRegistrados.resx">
+      <DependentUpon>FrmlistaProblemasRegistrados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Registro problemas produccion\FrmVerSolucion.resx">
+      <DependentUpon>FrmVerSolucion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Toma Medidas\FrmCantidad_a_Duplicar.resx">
+      <DependentUpon>FrmCantidad_a_Duplicar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Toma Medidas\FrmModificacionVariables.resx">
+      <DependentUpon>FrmModificacionVariables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Toma Medidas\FrmTomaMedidas.resx">
+      <DependentUpon>FrmTomaMedidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\Frmagregarvariables.resx">
+      <DependentUpon>Frmagregarvariables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\Extras Editor Planos\FrmReemplazarPlantilla.resx">
+      <DependentUpon>FrmReemplazarPlantilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmComplementos.resx">
+      <DependentUpon>FrmComplementos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmEditorModelos.resx">
+      <DependentUpon>FrmEditorModelos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmGenerarPlanos.resx">
+      <DependentUpon>FrmGenerarPlanos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmListaCorte.resx">
+      <DependentUpon>FrmListaCorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Formularios Dpto Tecnico\Para planos\FrmOpAprobadas.resx">
+      <DependentUpon>FrmOpAprobadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Registro problemas produccion\FrmRegistroProblemasProduccion.resx">
+      <DependentUpon>FrmRegistroProblemasProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Problemas produccion\FrmCambioSeccion.resx">
+      <DependentUpon>FrmCambioSeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Problemas produccion\FrmListaProblemasProduccion.resx">
+      <DependentUpon>FrmListaProblemasProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Problemas produccion\FrmDevolucionProblema.resx">
+      <DependentUpon>FrmDevolucionProblema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Produccion\Problemas produccion\FrmProblemasProduccion.resx">
+      <DependentUpon>FrmProblemasProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Pruebas\FrmPruebasColumnasGrid.resx">
+      <DependentUpon>FrmPruebasColumnasGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Pruebas\FrmRTF.resx">
+      <DependentUpon>FrmRTF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Utiles\frmPeticionCadenaTexto.resx">
+      <DependentUpon>frmPeticionCadenaTexto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Utiles\FrmVerimagen.resx">
+      <DependentUpon>FrmVerimagen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmModificadorGlobalFormulas.resx">
+      <DependentUpon>FrmModificadorGlobalFormulas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Formularios emergentes\FrmBusquedaClientes.resx">
+      <DependentUpon>FrmBusquedaClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmCiudadesCamaraC.resx">
+      <DependentUpon>frmCiudadesCamaraC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmTipoAnticipo.resx">
+      <DependentUpon>frmTipoAnticipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\Parametros Formatos\FrmTiposFormato.resx">
+      <DependentUpon>FrmTiposFormato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmAluminios.resx">
+      <DependentUpon>FrmAluminios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmBuscarCostoVidrio.resx">
+      <DependentUpon>FrmBuscarCostoVidrio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostoTrabajosItems.resx">
+      <DependentUpon>FrmCostoTrabajosItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostoVidrioIndividual.resx">
+      <DependentUpon>FrmCostoVidrioIndividual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmVariosCostos.resx">
+      <DependentUpon>FrmVariosCostos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmCondicionesCotiza.resx">
+      <DependentUpon>FrmCondicionesCotiza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostosAdicionalesObra.resx">
+      <DependentUpon>FrmCostosAdicionalesObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmDuracionDuplicacion.resx">
+      <DependentUpon>FrmDuracionDuplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\frmGruposCondicionesComerciales.resx">
+      <DependentUpon>frmGruposCondicionesComerciales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Conectores\FrmConectoresDisponibles.resx">
+      <DependentUpon>FrmConectoresDisponibles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Conectores\FrmConectoresPlanos.resx">
+      <DependentUpon>FrmConectoresPlanos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmTrabajosItems.resx">
+      <DependentUpon>FrmTrabajosItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmVigencias.resx">
+      <DependentUpon>FrmVigencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmConceptos.resx">
+      <DependentUpon>frmConceptos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmDocumentosOT.resx">
+      <DependentUpon>frmDocumentosOT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmEncargados.resx">
+      <DependentUpon>frmEncargados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmListaPrecios.resx">
+      <DependentUpon>frmListaPrecios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmModificarPrecio.resx">
+      <DependentUpon>frmModificarPrecio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmProveedores.resx">
+      <DependentUpon>frmProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmTiposCuentas.resx">
+      <DependentUpon>frmTiposCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Instalacion\frmTiposOrdenesTrabajo.resx">
+      <DependentUpon>frmTiposOrdenesTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Notas\FrmEsquemaInforme.resx">
+      <DependentUpon>FrmEsquemaInforme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Notas\FrmOrigenesNotas.resx">
+      <DependentUpon>FrmOrigenesNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Notas\FrmTiposNotas.resx">
+      <DependentUpon>FrmTiposNotas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmCategoriasExp.resx">
+      <DependentUpon>FrmCategoriasExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmAseguradoras.resx">
+      <DependentUpon>frmAseguradoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmTipoEscritura.resx">
+      <DependentUpon>frmTipoEscritura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmObjetos.resx">
+      <DependentUpon>frmObjetos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Contratos\frmPolizas.resx">
+      <DependentUpon>frmPolizas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmAddItemPadre.resx">
+      <DependentUpon>FrmAddItemPadre.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmCotizaciones.resx">
+      <DependentUpon>FrmCotizaciones.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmListaMateriales.resx">
+      <DependentUpon>FrmListaMateriales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\FrmVerCotizaciones.resx">
+      <DependentUpon>FrmVerCotizaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddAccesorio.resx">
+      <DependentUpon>FrmAddAccesorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddOtros.resx">
+      <DependentUpon>FrmAddOtros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddPerfil.resx">
+      <DependentUpon>FrmAddPerfil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmAddVidrio.resx">
+      <DependentUpon>FrmAddVidrio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\frmDuplicadoItem.resx">
+      <DependentUpon>frmDuplicadoItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Norma\FrmVelocidadesViento.resx">
+      <DependentUpon>FrmVelocidadesViento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Norma\FrmVersionesCargaViento.resx">
+      <DependentUpon>FrmVersionesCargaViento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Pruebas\FrmMenuPruebas.resx">
+      <DependentUpon>FrmMenuPruebas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Pruebas\FrmPruebasEjecutor.resx">
+      <DependentUpon>FrmPruebasEjecutor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Pruebas\FrmPruebasNuevoDatagrid.resx">
+      <DependentUpon>FrmPruebasNuevoDatagrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios Utiles\Extras\FrmCargaProceso.resx">
+      <DependentUpon>FrmCargaProceso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios comercial\Ventas\Cotizaciones\Items\FrmCargaPlantillas.resx">
+      <DependentUpon>FrmCargaPlantillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmDescuentosMaterial.resx">
+      <DependentUpon>FrmDescuentosMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmListaPlantillas.resx">
+      <DependentUpon>FrmListaPlantillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmQuickAddDescuento.resx">
+      <DependentUpon>FrmQuickAddDescuento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmTesteadorPlantillas.resx">
+      <DependentUpon>FrmTesteadorPlantillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Formularios emergentes\FrmSeleccionCiudades.resx">
+      <DependentUpon>FrmSeleccionCiudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Formularios emergentes\FrmManoObraDescripcion.resx">
+      <DependentUpon>FrmManoObraDescripcion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmComponentes.resx">
+      <DependentUpon>FrmComponentes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostoAluminio.resx">
+      <DependentUpon>FrmCostoAluminio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostoOtrosArticulos.resx">
+      <DependentUpon>FrmCostoOtrosArticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmCostoVidrio.resx">
+      <DependentUpon>FrmCostoVidrio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmDirectores.resx">
+      <DependentUpon>FrmDirectores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmFactores.resx">
+      <DependentUpon>FrmFactores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Formularios emergentes\FrmFactoresDescripcion.resx">
+      <DependentUpon>FrmFactoresDescripcion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmFormasPago.resx">
+      <DependentUpon>FrmFormasPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmGruposUso.resx">
+      <DependentUpon>FrmGruposUso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmImpuestos.resx">
+      <DependentUpon>FrmImpuestos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmInstalacion.resx">
+      <DependentUpon>FrmInstalacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Costos\FrmNiveles.resx">
+      <DependentUpon>FrmNiveles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmParametrosAIU.resx">
+      <DependentUpon>FrmParametrosAIU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmPresionModelos.resx">
+      <DependentUpon>FrmPresionModelos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmTiempoEntrega.resx">
+      <DependentUpon>FrmTiempoEntrega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmTiposCubierta.resx">
+      <DependentUpon>FrmTiposCubierta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmTiposEdificacion.resx">
+      <DependentUpon>FrmTiposEdificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposIdentificacion.resx">
+      <DependentUpon>FrmTiposIdentificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmTiposObra.resx">
+      <DependentUpon>FrmTiposObra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros Cotizaciones\FrmVendedores.resx">
+      <DependentUpon>FrmVendedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmArticulos.resx">
+      <DependentUpon>FrmArticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmEspesores.resx">
+      <DependentUpon>FrmEspesores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmAcabados.resx">
+      <DependentUpon>FrmAcabados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicial.resx">
+      <DependentUpon>frmInicial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Conectores\FrmControlesEnlaceConectores.resx">
+      <DependentUpon>FrmControlesEnlaceConectores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Informes Dinamicos\FrmCargadorInformesDinamicos.resx">
+      <DependentUpon>FrmCargadorInformesDinamicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Informes Dinamicos\FrmInformesDinamicos.resx">
+      <DependentUpon>FrmInformesDinamicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmValoresParametrosTecnicosArticulo.resx">
+      <DependentUpon>FrmValoresParametrosTecnicosArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmValoresVariables.resx">
+      <DependentUpon>FrmValoresVariables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\Informes Dinamicos\FrmParametrosInformesDinamicos.resx">
+      <DependentUpon>FrmParametrosInformesDinamicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmCaracteristicasAdicionales.resx">
+      <DependentUpon>FrmCaracteristicasAdicionales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmClasificacionModelo.resx">
+      <DependentUpon>FrmClasificacionModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmEstados.resx">
+      <DependentUpon>FrmEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmConfiguraciones.resx">
+      <DependentUpon>FrmConfiguraciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmDescuentos.resx">
+      <DependentUpon>FrmDescuentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmFamiliasMateriales.resx">
+      <DependentUpon>FrmFamiliasMateriales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmFamiliasModelos.resx">
+      <DependentUpon>FrmFamiliasModelos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingenieria\Diseño Plantillas\FrmPlantillaModelo.resx">
+      <DependentUpon>FrmPlantillaModelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\Frmmedidasperfileria.resx">
+      <DependentUpon>Frmmedidasperfileria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmParametrosDescripcionTecnica.resx">
+      <DependentUpon>FrmParametrosDescripcionTecnica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Comercial\Parametros NSR10\FrmPropiedadesMasicas.resx">
+      <DependentUpon>FrmPropiedadesMasicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmTiposCortes.resx">
+      <DependentUpon>FrmTiposCortes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmTiposDatos.resx">
+      <DependentUpon>FrmTiposDatos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmMaterialPara.resx">
+      <DependentUpon>FrmMaterialPara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmOrientacionPosiciones.resx">
+      <DependentUpon>FrmOrientacionPosiciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmTiposMaterial.resx">
+      <DependentUpon>FrmTiposMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmUbicacionMaterial.resx">
+      <DependentUpon>FrmUbicacionMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Generales\FrmVariables.resx">
+      <DependentUpon>FrmVariables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parametros Manufactura\FrmTiposModelos.resx">
+      <DependentUpon>FrmTiposModelos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmCausas.resx">
+      <DependentUpon>frmCausas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmDestinatarios.resx">
+      <DependentUpon>frmDestinatarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorCausas.resx">
+      <DependentUpon>frmMotivosPorCausas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmMotivosPorSecciones.resx">
+      <DependentUpon>frmMotivosPorSecciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Calidad\frmSecciones.resx">
+      <DependentUpon>frmSecciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\FrmMotivosDevolucionProduccion.resx">
+      <DependentUpon>FrmMotivosDevolucionProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Parametros Produccion\Frmtercerosproduccion.resx">
+      <DependentUpon>Frmtercerosproduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\FrmDepartamentosAlco.resx">
+      <DependentUpon>FrmDepartamentosAlco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\FrmGruposSeguridad.resx">
+      <DependentUpon>FrmGruposSeguridad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\FrmModulosAplicacion.resx">
+      <DependentUpon>FrmModulosAplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Seguridad\FrmPermisos.resx">
+      <DependentUpon>FrmPermisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad Y Bloqueos\Seguridad\FrmPermisosExtra.resx">
+      <DependentUpon>FrmPermisosExtra.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\configuration_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addDocuments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modDocuments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addFx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ComboBoxMultiColumna\ComboBoxMultiColumna.csproj">
+      <Project>{da514ed9-dec9-469e-afa4-1584646f540e}</Project>
+      <Name>ComboBoxMultiColumna</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlesPersonalizados\ControlesPersonalizados.csproj">
+      <Project>{55ff1e0a-b1dc-4fed-9db8-fe47b19a271b}</Project>
+      <Name>ControlesPersonalizados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DXF\DXF.csproj">
+      <Project>{8621e32f-7f8f-4b3f-89ed-d3e15192fd61}</Project>
+      <Name>DXF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EspecialColumns\EspecialColumns.csproj">
+      <Project>{ac47c27b-238c-4bff-8018-e6e551f30b7a}</Project>
+      <Name>EspecialColumns</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FormatosExportacion\FormatosExportacion.csproj">
+      <Project>{04e88229-a022-4c94-8f95-ec8a71ef253a}</Project>
+      <Name>FormatosExportacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formulador\Formulador.csproj">
+      <Project>{92a0a81f-7cc4-4a84-8fe9-d350b62160c6}</Project>
+      <Name>Formulador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Informes\Informes.vbproj">
+      <Project>{f033154d-7021-4439-aad0-b4fa0340f3de}</Project>
+      <Name>Informes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejoExcepciones\ManejoExcepciones.csproj">
+      <Project>{0613ea51-caf0-4562-810f-5f3a50bf27e1}</Project>
+      <Name>ManejoExcepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManualesyAyudas\ManualesyAyudas.csproj">
+      <Project>{e64a6562-57b5-4685-b4af-67cd7672cbf9}</Project>
+      <Name>ManualesyAyudas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MdiTabPagesBar\MdiTabPagesBar.csproj">
+      <Project>{20e87dab-c1bd-417c-8655-ebbb3ae37e0b}</Project>
+      <Name>MdiTabPagesBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Multiusos\Multiusos.csproj">
+      <Project>{79d95493-1113-42bf-b96a-fa07efebab0a}</Project>
+      <Name>Multiusos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Norma NSR\Norma NSR.csproj">
+      <Project>{220cde2e-e7c8-4976-97f7-fe773ce2cc0b}</Project>
+      <Name>Norma NSR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReglasNegocio\ReglasNegocio.vbproj">
+      <Project>{946b2222-3645-424d-93b0-26dde8c69c00}</Project>
+      <Name>ReglasNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ribbon35\Ribbon35.csproj">
+      <Project>{0147abfe-17e6-467e-97f4-139069669b25}</Project>
+      <Name>Ribbon35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RichTextboxExtendido\RichTextboxExtendido.csproj">
+      <Project>{c51f6e1d-0b77-4e1e-8a32-6b753d6f356c}</Project>
+      <Name>RichTextboxExtendido</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RichTextBoxSintaxHighLight\RichTextBoxSyntaxHighLight.csproj">
+      <Project>{27b57aca-05a4-49b8-9972-3aa839305ec0}</Project>
+      <Name>RichTextBoxSyntaxHighLight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolStrip_Extras\ToolStrip_Extras.csproj">
+      <Project>{3897386b-870a-45a3-849f-c44c18fc11ec}</Project>
+      <Name>ToolStrip_Extras</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeDatagridview\TreeDatagridview.csproj">
+      <Project>{e3169945-942d-426d-9d97-cdb04a6b17de}</Project>
+      <Name>TreeDatagridview</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Validaciones\Validaciones.vbproj">
+      <Project>{af0be302-5ae2-4c74-9115-1342198ecb90}</Project>
+      <Name>Validaciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VIDRIO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnexportarExcel.SmallImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nodisponible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularios comercial\Costos\" />
+    <Folder Include="Formularios comercial\Facturacion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar 20x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fx8x8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recalcular 24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recalcular 32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="LCC11">
+      <Guid>{EDCD5812-6A06-43C3-AFAC-46EF5D14E22C}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar 32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar 24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

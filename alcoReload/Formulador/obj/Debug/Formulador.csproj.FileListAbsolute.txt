@@ -1,0 +1,17 @@
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\Formulador.dll.config
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\Formulador.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\Formulador.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\Multiusos.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\RichTextBoxSintaxHighLight.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\TreeDatagridview.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\Multiusos.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\RichTextBoxSintaxHighLight.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\bin\Debug\TreeDatagridview.pdb
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.csprojResolveAssemblyReference.cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.Formularios_Ayuda.FrmAyudanteFormulacion.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.Formularios_Ayuda.FrmFormulador.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.Formularios_Ayuda.FrmFormuladorMin.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.Properties.Resources.resources
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.csproj.GenerateResource.Cache
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.dll
+C:\Users\analista1\Documents\Visual Studio 2015\Projects\ALCOING\alcoReload\Formulador\obj\Debug\Formulador.pdb
